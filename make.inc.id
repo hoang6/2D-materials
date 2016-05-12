@@ -1,0 +1,12 @@
+SHELL             = /bin/sh
+CURRENTDIR        = ./
+REMOVE            = rm
+CCOMPILER         = icc
+CPPCOMPILER       = icpc
+MPICOMPILER       = mpic++
+CCOMPILERFLAGS    = -O2
+CPPCOMPILERFLAGS  = -O2
+MPICOMPILERFLAGS  = -O2
+RNGFLAGS          = -DMEXP=216091
+BBOPFLAGS         = #-DB_BOP_LAPACK_DSYEV=dsyev_
+LIBRARY           = #-L/Library/Frameworks/Intel_MKL.framework/Versions/Current/lib/em64t -lmkl -lmkl_em64t -lmkl_lapack -lguide -lpthread -lmkl 

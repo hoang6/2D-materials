@@ -1,0 +1,33 @@
+simTag		  MCNPH
+potential         REBO
+
+rStep             4000000
+eStep             8000000
+hStep             1
+dAction           0
+dStateStep        80000
+dStatStep         10
+dInfoStep         1000
+
+inFile		  in.log
+actionFile        action.log
+stateFile         state.log
+statFile          stat.log
+infoFile          info.log
+junkFile          junk.log
+digits            9
+
+rootDir           ./sim.root
+simDir            exp1 exp2
+
+tableBegin: Default
+caseDir	H/atom  pressure
+case1	-7.2    0.0
+case2	-7.0    0.0
+case3	-6.8    0.0
+case4	-6.6    0.0
+case5	-6.4    0.0
+case6	-6.2    0.0
+case7	-6.0    0.0
+case8	-5.8    0.0
+tableEnd

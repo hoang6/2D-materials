@@ -1,0 +1,10 @@
+SHELL             = cmd.exe
+CURRENTDIR        = 
+REMOVE            = del
+CCOMPILER         = gcc
+CPPCOMPILER       = g++
+CCOMPILERFLAGS    = -O2
+CPPCOMPILERFLAGS  = -O2
+RNGFLAGS          = -DMEXP=216091
+BBOPFLAGS         = 
+LIBRARY           =

@@ -1,0 +1,38 @@
+############################################################
+## ENSEMBLE: ensemble types & arguments
+##   NVE
+##   NVT    <fixed_temp(K)> <time_NH(fs)>
+##   NVE1He <He_xyz> <He_vxyz>
+##
+## DTIME:
+##   Integration time step (fs)
+##
+## MAX_STEP:
+##   Maximum ### of time steps
+##
+## DUMP_STEP:
+##   Dump step every DUMP_STEP
+##
+## IN_MOL & IN_VEL:
+##   Input files for mol & vel
+##
+## INIT_TEMP:
+##   If IN_VEL is not specified, generate rand vel
+##
+## OUT_TAG:
+##   Output files: OUT_TAG.mol & OUT_TAG.vel & OUT_TAG.ene
+## 
+## END:
+##   End of input
+############################################################
+
+POTENTIAL	LCBOPIIN
+ENSEMBLE	NVT 300 10 
+DTIME		0.05
+MAX_STEP	10000
+DUMP_STEP	10
+IN_MOL		in.mol
+INIT_TEMP	600
+OUT_TAG		out
+END
+

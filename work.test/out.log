@@ -1,0 +1,4 @@
+manufacture: produce file: GPH_PBC_C960H0
+Usage: testGPHnLa <in_mol> <out_mol> <n_layers>
+       input GPH should be 'armchair'-type
+Error: cannot open file: GPH1L

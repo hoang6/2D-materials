@@ -1,0 +1,8 @@
+#! /bin/sh
+
+for y in `ls`
+do
+rm $y/*~ $y/'#'* $y/*.gch 2> /dev/null
+done
+
+rm *~ '#'* *.gch 2> /dev/null

@@ -1,0 +1,1157 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ms/call  ms/call  name    
+ 66.89      7.09     7.09 13053744     0.00     0.00  LCBOPII::Energy::fSVmr(AMod::Arrow const&, AMod::MolTopo const&)
+  6.42      7.77     0.68 23754984     0.00     0.00  LCBOPII::Energy::fSVlr(AMod::Bond const&)
+  5.47      8.35     0.58 23754984     0.00     0.00  LCBOPII::Energy::compute_r3(AMod::Bond const&)
+  4.62      8.84     0.49  1427904     0.00     0.00  LCBOPII::Energy::fb(AMod::Arrow const&)
+  3.11      9.17     0.33  1238160     0.00     0.00  LCBOPII::(anonymous namespace)::ftvec(double const*, double const*, double const*, double*)
+  2.36      9.42     0.25  1922944     0.00     0.00  AMod::Trans::findImage3(double*, double const*, double) const
+  1.98      9.63     0.21   713952     0.00     0.00  LCBOPII::Energy::fFAT(AMod::Bond const&)
+  1.60      9.80     0.17  1427904     0.00     0.00  LCBOPII::Energy::fPreF(AMod::Arrow const&, std::vector<LCBOPII::Energy::FDatum, std::allocator<LCBOPII::Energy::FDatum> >&)
+  1.13      9.92     0.12  1669104     0.00     0.00  std::vector<LCBOPII::Energy::FDatum, std::allocator<LCBOPII::Energy::FDatum> >::_M_insert_aux(__gnu_cxx::__normal_iterator<LCBOPII::Energy::FDatum*, std::vector<LCBOPII::Energy::FDatum, std::allocator<LCBOPII::Energy::FDatum> > >, LCBOPII::Energy::FDatum const&)
+  1.04     10.03     0.11   347328     0.00     0.02  LCBOPII::Energy::compute_r4(AMod::Atom const&, AMod::MolTopo const&)
+  1.04     10.14     0.11      201     0.55    50.30  LCBOPII::Energy::computeE(AMod::MolTopo const&, AMod::MolTopo const&, AMod::MolTopo const&)
+  0.75     10.22     0.08     6912     0.01     0.07  AMod::MolTopo::updateHardConnection(int, bool)
+  0.38     10.26     0.04  4557072     0.00     0.00  LCBOPII::(anonymous namespace)::fG1(double)
+  0.38     10.30     0.04  2855808     0.00     0.00  std::vector<int, std::allocator<int> >::reserve(unsigned int)
+  0.38     10.34     0.04  1922944     0.00     0.00  AMod::Trans::findImage(double*, double const*, double) const
+  0.38     10.38     0.04   347328     0.00     0.00  LCBOPII::Energy::compute_r1(AMod::Atom const&)
+  0.28     10.41     0.03  1941952     0.00     0.00  AMod::Trans::proj(double const*, double*) const
+  0.28     10.44     0.03   713952     0.00     0.00  LCBOPII::Energy::compute_r0(AMod::Bond const&)
+  0.28     10.47     0.03   713952     0.00     0.00  LCBOPII::Energy::fSVsr(AMod::Bond const&)
+  0.19     10.49     0.02  1922944     0.00     0.00  AMod::MolTopo::newHardBond(int, int)
+  0.19     10.51     0.02   599784     0.00     0.00  std::vector<int, std::allocator<int> >::_M_insert_aux(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&)
+  0.19     10.53     0.02   315520     0.00     0.00  Util::PtrCont<AMod::Arrow>::push_back()
+  0.19     10.55     0.02    12096     0.00     0.00  Util::PtrCont<AMod::Arrow>::resize(int)
+  0.09     10.56     0.01  3338208     0.00     0.00  LCBOPII::Energy::FDatum* std::__uninitialized_move_a<LCBOPII::Energy::FDatum*, LCBOPII::Energy::FDatum*, std::allocator<LCBOPII::Energy::FDatum> >(LCBOPII::Energy::FDatum*, LCBOPII::Energy::FDatum*, LCBOPII::Energy::FDatum*, std::allocator<LCBOPII::Energy::FDatum>&)
+  0.09     10.57     0.01   713952     0.00     0.00  LCBOPII::Energy::compute_r2(AMod::Bond const&)
+  0.09     10.58     0.01   311258     0.00     0.00  AMod::Bond::Bond()
+  0.09     10.59     0.01    33120     0.00     0.00  std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> >::_M_insert_aux(__gnu_cxx::__normal_iterator<AMod::Arrow**, std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> > >, AMod::Arrow* const&)
+  0.09     10.60     0.01     6912     0.00     0.00  std::_Rb_tree<AMod::MolTopo::Cell, AMod::MolTopo::Cell, std::_Identity<AMod::MolTopo::Cell>, std::less<AMod::MolTopo::Cell>, std::allocator<AMod::MolTopo::Cell> >::_M_erase(std::_Rb_tree_node<AMod::MolTopo::Cell>*)
+  0.00     10.60     0.00  1922944     0.00     0.00  AMod::BondRange::max(int, int) const
+  0.00     10.60     0.00  1588704     0.00     0.00  std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&)
+  0.00     10.60     0.00   988920     0.00     0.00  std::vector<LCBOPII::Energy::FDatum, std::allocator<LCBOPII::Energy::FDatum> >::_M_fill_insert(__gnu_cxx::__normal_iterator<LCBOPII::Energy::FDatum*, std::vector<LCBOPII::Energy::FDatum, std::allocator<LCBOPII::Energy::FDatum> > >, unsigned int, LCBOPII::Energy::FDatum const&)
+  0.00     10.60     0.00   311258     0.00     0.00  AMod::Bond::~Bond()
+  0.00     10.60     0.00   186624     0.00     0.00  std::_Rb_tree<AMod::MolTopo::Cell, AMod::MolTopo::Cell, std::_Identity<AMod::MolTopo::Cell>, std::less<AMod::MolTopo::Cell>, std::allocator<AMod::MolTopo::Cell> >::_M_insert_(std::_Rb_tree_node_base const*, std::_Rb_tree_node_base const*, AMod::MolTopo::Cell const&)
+  0.00     10.60     0.00   162624     0.00     0.00  AMod::BondRange::min(int, int) const
+  0.00     10.60     0.00   157760     0.00     0.00  AMod::Bond::setup(double const&, double const*, int const*)
+  0.00     10.60     0.00   157760     0.00     0.00  AMod::Bond::connect(AMod::Atom&, AMod::Atom&)
+  0.00     10.60     0.00   157760     0.00     0.00  Util::PtrCont<AMod::Bond>::push_back()
+  0.00     10.60     0.00   154208     0.00     0.00  AMod::Bond::operator=(AMod::Bond const&)
+  0.00     10.60     0.00    66240     0.00     0.00  AMod::Arrow** std::__copy_move_a<false, AMod::Arrow**, AMod::Arrow**>(AMod::Arrow**, AMod::Arrow**, AMod::Arrow**)
+  0.00     10.60     0.00    24192     0.00     0.00  std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> >::erase(__gnu_cxx::__normal_iterator<AMod::Arrow**, std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> > >, __gnu_cxx::__normal_iterator<AMod::Arrow**, std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> > >)
+  0.00     10.60     0.00    19008     0.00     0.00  AMod::MolTopo::whatCell(double const*, AMod::MolTopo::Cell&) const
+  0.00     10.60     0.00    19008     0.00     0.00  void std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> >::_M_range_insert<__gnu_cxx::__normal_iterator<AMod::Arrow**, std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> > > >(__gnu_cxx::__normal_iterator<AMod::Arrow**, std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> > >, __gnu_cxx::__normal_iterator<AMod::Arrow**, std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> > >, __gnu_cxx::__normal_iterator<AMod::Arrow**, std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> > >, std::forward_iterator_tag)
+  0.00     10.60     0.00    12480     0.00     0.00  AMod::Arrow::~Arrow()
+  0.00     10.60     0.00     8640     0.00     0.00  AMod::Atom::reset()
+  0.00     10.60     0.00     8640     0.00     0.00  AMod::Atom::Atom()
+  0.00     10.60     0.00     8640     0.00     0.00  AMod::Atom::~Atom()
+  0.00     10.60     0.00     8640     0.00     0.00  Util::PtrCont<AMod::Arrow>::cleanup()
+  0.00     10.60     0.00     7104     0.00     0.00  AMod::Arrow::Arrow()
+  0.00     10.60     0.00     7104     0.00     0.00  AMod::Arrow::operator=(AMod::Arrow const&)
+  0.00     10.60     0.00     6916     0.00     0.00  AMod::MolTopo::setupAxes()
+  0.00     10.60     0.00     6912     0.00     0.00  AMod::MolTopo::updateCellsMoveAtom(int)
+  0.00     10.60     0.00     3456     0.00     0.00  AMod::Atom::operator=(AMod::Atom const&)
+  0.00     10.60     0.00     2461     0.00     0.00  std::_Rb_tree<AMod::MolTopo::Cell, std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > >, std::_Select1st<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > >, std::less<AMod::MolTopo::Cell>, std::allocator<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > > >::_M_insert_(std::_Rb_tree_node_base const*, std::_Rb_tree_node_base const*, std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > const&)
+  0.00     10.60     0.00     2461     0.00     0.00  std::_Rb_tree<AMod::MolTopo::Cell, std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > >, std::_Select1st<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > >, std::less<AMod::MolTopo::Cell>, std::allocator<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > > >::_M_insert_unique_(std::_Rb_tree_const_iterator<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > >, std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > const&)
+  0.00     10.60     0.00     1731     0.00     0.00  AMod::Atom::Data::Data(int, double, double, double)
+  0.00     10.60     0.00     1731     0.00     0.00  AMod::Atom::Data::Data()
+  0.00     10.60     0.00     1731     0.00     0.00  AMod::Atom::Data::operator=(AMod::Atom::Data const&)
+  0.00     10.60     0.00      203     0.00     0.00  Util::PtrCont<LCBOPII::AtomDatumMR>::resize(int)
+  0.00     10.60     0.00      203     0.00     0.00  Util::PtrCont<LCBOPII::BondDatumLR>::resize(int)
+  0.00     10.60     0.00      203     0.00     0.00  Util::PtrCont<LCBOPII::BondDatumSR>::resize(int)
+  0.00     10.60     0.00      203     0.00     0.00  std::vector<LCBOPII::AtomDatumMR*, std::allocator<LCBOPII::AtomDatumMR*> >::erase(__gnu_cxx::__normal_iterator<LCBOPII::AtomDatumMR**, std::vector<LCBOPII::AtomDatumMR*, std::allocator<LCBOPII::AtomDatumMR*> > >, __gnu_cxx::__normal_iterator<LCBOPII::AtomDatumMR**, std::vector<LCBOPII::AtomDatumMR*, std::allocator<LCBOPII::AtomDatumMR*> > >)
+  0.00     10.60     0.00      203     0.00     0.00  std::vector<LCBOPII::BondDatumLR*, std::allocator<LCBOPII::BondDatumLR*> >::erase(__gnu_cxx::__normal_iterator<LCBOPII::BondDatumLR**, std::vector<LCBOPII::BondDatumLR*, std::allocator<LCBOPII::BondDatumLR*> > >, __gnu_cxx::__normal_iterator<LCBOPII::BondDatumLR**, std::vector<LCBOPII::BondDatumLR*, std::allocator<LCBOPII::BondDatumLR*> > >)
+  0.00     10.60     0.00      203     0.00     0.00  std::vector<LCBOPII::BondDatumSR*, std::allocator<LCBOPII::BondDatumSR*> >::erase(__gnu_cxx::__normal_iterator<LCBOPII::BondDatumSR**, std::vector<LCBOPII::BondDatumSR*, std::allocator<LCBOPII::BondDatumSR*> > >, __gnu_cxx::__normal_iterator<LCBOPII::BondDatumSR**, std::vector<LCBOPII::BondDatumSR*, std::allocator<LCBOPII::BondDatumSR*> > >)
+  0.00     10.60     0.00      202     0.00     0.00  void std::vector<LCBOPII::AtomDatumMR*, std::allocator<LCBOPII::AtomDatumMR*> >::_M_range_insert<__gnu_cxx::__normal_iterator<LCBOPII::AtomDatumMR**, std::vector<LCBOPII::AtomDatumMR*, std::allocator<LCBOPII::AtomDatumMR*> > > >(__gnu_cxx::__normal_iterator<LCBOPII::AtomDatumMR**, std::vector<LCBOPII::AtomDatumMR*, std::allocator<LCBOPII::AtomDatumMR*> > >, __gnu_cxx::__normal_iterator<LCBOPII::AtomDatumMR**, std::vector<LCBOPII::AtomDatumMR*, std::allocator<LCBOPII::AtomDatumMR*> > >, __gnu_cxx::__normal_iterator<LCBOPII::AtomDatumMR**, std::vector<LCBOPII::AtomDatumMR*, std::allocator<LCBOPII::AtomDatumMR*> > >, std::forward_iterator_tag)
+  0.00     10.60     0.00      202     0.00     0.00  void std::vector<LCBOPII::BondDatumLR*, std::allocator<LCBOPII::BondDatumLR*> >::_M_range_insert<__gnu_cxx::__normal_iterator<LCBOPII::BondDatumLR**, std::vector<LCBOPII::BondDatumLR*, std::allocator<LCBOPII::BondDatumLR*> > > >(__gnu_cxx::__normal_iterator<LCBOPII::BondDatumLR**, std::vector<LCBOPII::BondDatumLR*, std::allocator<LCBOPII::BondDatumLR*> > >, __gnu_cxx::__normal_iterator<LCBOPII::BondDatumLR**, std::vector<LCBOPII::BondDatumLR*, std::allocator<LCBOPII::BondDatumLR*> > >, __gnu_cxx::__normal_iterator<LCBOPII::BondDatumLR**, std::vector<LCBOPII::BondDatumLR*, std::allocator<LCBOPII::BondDatumLR*> > >, std::forward_iterator_tag)
+  0.00     10.60     0.00      202     0.00     0.00  void std::vector<LCBOPII::BondDatumSR*, std::allocator<LCBOPII::BondDatumSR*> >::_M_range_insert<__gnu_cxx::__normal_iterator<LCBOPII::BondDatumSR**, std::vector<LCBOPII::BondDatumSR*, std::allocator<LCBOPII::BondDatumSR*> > > >(__gnu_cxx::__normal_iterator<LCBOPII::BondDatumSR**, std::vector<LCBOPII::BondDatumSR*, std::allocator<LCBOPII::BondDatumSR*> > >, __gnu_cxx::__normal_iterator<LCBOPII::BondDatumSR**, std::vector<LCBOPII::BondDatumSR*, std::allocator<LCBOPII::BondDatumSR*> > >, __gnu_cxx::__normal_iterator<LCBOPII::BondDatumSR**, std::vector<LCBOPII::BondDatumSR*, std::allocator<LCBOPII::BondDatumSR*> > >, std::forward_iterator_tag)
+  0.00     10.60     0.00      201     0.00    50.30  AMod::ForceLCBOPIIN::computeEnergy()
+  0.00     10.60     0.00      200     0.00    50.30  AMod::KernelLCBOPIIN::energy()
+  0.00     10.60     0.00       94     0.00     0.00  AMod::Bond** std::__copy_move_a<false, AMod::Bond**, AMod::Bond**>(AMod::Bond**, AMod::Bond**, AMod::Bond**)
+  0.00     10.60     0.00       63     0.00     0.00  AMod::MolTopo::bondok(int) const
+  0.00     10.60     0.00       47     0.00     0.00  std::vector<AMod::Bond*, std::allocator<AMod::Bond*> >::_M_insert_aux(__gnu_cxx::__normal_iterator<AMod::Bond**, std::vector<AMod::Bond*, std::allocator<AMod::Bond*> > >, AMod::Bond* const&)
+  0.00     10.60     0.00       39     0.00     0.00  AMod::Trans::reset()
+  0.00     10.60     0.00       37     0.00     0.00  AMod::BondRange::insert(int, int, double, double)
+  0.00     10.60     0.00       36     0.00     0.00  NR::Vector<double>::~Vector()
+  0.00     10.60     0.00       25     0.00     0.00  Util::PtrCont<AMod::MolTopo::A2CLink>::resize(int)
+  0.00     10.60     0.00       24     0.00     0.00  std::vector<AMod::MolTopo::A2CLink*, std::allocator<AMod::MolTopo::A2CLink*> >::erase(__gnu_cxx::__normal_iterator<AMod::MolTopo::A2CLink**, std::vector<AMod::MolTopo::A2CLink*, std::allocator<AMod::MolTopo::A2CLink*> > >, __gnu_cxx::__normal_iterator<AMod::MolTopo::A2CLink**, std::vector<AMod::MolTopo::A2CLink*, std::allocator<AMod::MolTopo::A2CLink*> > >)
+  0.00     10.60     0.00       22     0.00     0.00  void std::vector<AMod::MolTopo::A2CLink*, std::allocator<AMod::MolTopo::A2CLink*> >::_M_range_insert<__gnu_cxx::__normal_iterator<AMod::MolTopo::A2CLink**, std::vector<AMod::MolTopo::A2CLink*, std::allocator<AMod::MolTopo::A2CLink*> > > >(__gnu_cxx::__normal_iterator<AMod::MolTopo::A2CLink**, std::vector<AMod::MolTopo::A2CLink*, std::allocator<AMod::MolTopo::A2CLink*> > >, __gnu_cxx::__normal_iterator<AMod::MolTopo::A2CLink**, std::vector<AMod::MolTopo::A2CLink*, std::allocator<AMod::MolTopo::A2CLink*> > >, __gnu_cxx::__normal_iterator<AMod::MolTopo::A2CLink**, std::vector<AMod::MolTopo::A2CLink*, std::allocator<AMod::MolTopo::A2CLink*> > >, std::forward_iterator_tag)
+  0.00     10.60     0.00       21     0.00     0.00  std::_Rb_tree<AMod::MolTopo::Cell, std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > >, std::_Select1st<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > >, std::less<AMod::MolTopo::Cell>, std::allocator<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > > >::_M_erase(std::_Rb_tree_node<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > >*)
+  0.00     10.60     0.00       18     0.00     0.00  NR::Matrix<double>::~Matrix()
+  0.00     10.60     0.00       18     0.00     0.00  AMod::MolTopo::clearCells()
+  0.00     10.60     0.00       18     0.00     0.00  AMod::BondRange::reset()
+  0.00     10.60     0.00       18     0.00     0.00  std::vector<AMod::Bond*, std::allocator<AMod::Bond*> >::erase(__gnu_cxx::__normal_iterator<AMod::Bond**, std::vector<AMod::Bond*, std::allocator<AMod::Bond*> > >, __gnu_cxx::__normal_iterator<AMod::Bond**, std::vector<AMod::Bond*, std::allocator<AMod::Bond*> > >)
+  0.00     10.60     0.00       15     0.00     0.33  Util::PtrCont<AMod::Bond>::resize(int)
+  0.00     10.60     0.00       15     0.00     0.00  void std::vector<AMod::Bond*, std::allocator<AMod::Bond*> >::_M_range_insert<__gnu_cxx::__normal_iterator<AMod::Bond**, std::vector<AMod::Bond*, std::allocator<AMod::Bond*> > > >(__gnu_cxx::__normal_iterator<AMod::Bond**, std::vector<AMod::Bond*, std::allocator<AMod::Bond*> > >, __gnu_cxx::__normal_iterator<AMod::Bond**, std::vector<AMod::Bond*, std::allocator<AMod::Bond*> > >, __gnu_cxx::__normal_iterator<AMod::Bond**, std::vector<AMod::Bond*, std::allocator<AMod::Bond*> > >, std::forward_iterator_tag)
+  0.00     10.60     0.00       14     0.00     1.43  Util::PtrCont<AMod::Atom>::resize(int)
+  0.00     10.60     0.00       13     0.00     0.00  std::vector<AMod::Atom*, std::allocator<AMod::Atom*> >::erase(__gnu_cxx::__normal_iterator<AMod::Atom**, std::vector<AMod::Atom*, std::allocator<AMod::Atom*> > >, __gnu_cxx::__normal_iterator<AMod::Atom**, std::vector<AMod::Atom*, std::allocator<AMod::Atom*> > >)
+  0.00     10.60     0.00       11     0.00     0.00  AMod::Trans::init3(double const*, double const*, double const*)
+  0.00     10.60     0.00       11     0.00     1.76  AMod::MolTopo::clear()
+  0.00     10.60     0.00       11     0.00     0.00  AMod::MolTopo::reset()
+  0.00     10.60     0.00       11     0.00     0.01  AMod::MolTopo::update(AMod::MolTopoCase)
+  0.00     10.60     0.00       11     0.00     0.00  void std::vector<AMod::Atom*, std::allocator<AMod::Atom*> >::_M_range_insert<__gnu_cxx::__normal_iterator<AMod::Atom**, std::vector<AMod::Atom*, std::allocator<AMod::Atom*> > > >(__gnu_cxx::__normal_iterator<AMod::Atom**, std::vector<AMod::Atom*, std::allocator<AMod::Atom*> > >, __gnu_cxx::__normal_iterator<AMod::Atom**, std::vector<AMod::Atom*, std::allocator<AMod::Atom*> > >, __gnu_cxx::__normal_iterator<AMod::Atom**, std::vector<AMod::Atom*, std::allocator<AMod::Atom*> > >, std::forward_iterator_tag)
+  0.00     10.60     0.00        7     0.00     0.03  AMod::MolTopo::setupCells(double)
+  0.00     10.60     0.00        7     0.00     0.00  AMod::BondRange::BondRange()
+  0.00     10.60     0.00        7     0.00     0.00  AMod::BondRange::~BondRange()
+  0.00     10.60     0.00        7     0.00     0.00  void Util::build_axes<Util::Array2D<double, 3, 3> >(int, Util::Array2D<double, 3, 3>&)
+  0.00     10.60     0.00        7     0.00     0.00  std::vector<AMod::MolTopo::A2CLink*, std::allocator<AMod::MolTopo::A2CLink*> >::_M_fill_insert(__gnu_cxx::__normal_iterator<AMod::MolTopo::A2CLink**, std::vector<AMod::MolTopo::A2CLink*, std::allocator<AMod::MolTopo::A2CLink*> > >, unsigned int, AMod::MolTopo::A2CLink* const&)
+  0.00     10.60     0.00        7     0.00     0.00  std::_Rb_tree<AMod::MolTopo::Cell, std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > >, std::_Select1st<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > >, std::less<AMod::MolTopo::Cell>, std::allocator<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > > >::_M_insert_unique(std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > const&)
+  0.00     10.60     0.00        6     0.00     0.00  AMod::Trans::Trans()
+  0.00     10.60     0.00        6     0.00     0.00  void Util::purge<std::vector<AMod::Atom*, std::allocator<AMod::Atom*> > >(std::vector<AMod::Atom*, std::allocator<AMod::Atom*> >&)
+  0.00     10.60     0.00        6     0.00     0.00  void Util::purge<std::vector<AMod::Bond*, std::allocator<AMod::Bond*> > >(std::vector<AMod::Bond*, std::allocator<AMod::Bond*> >&)
+  0.00     10.60     0.00        6     0.00     0.00  Util::PtrCont<AMod::Atom::Data>::resize(int)
+  0.00     10.60     0.00        4     0.00     0.00  AMod::MolTopo::setupTrans()
+  0.00     10.60     0.00        4     0.00     0.36  AMod::MolTopo::clearConnection()
+  0.00     10.60     0.00        4     0.00   116.57  AMod::MolTopo::updateConnection(AMod::MolTopoMode)
+  0.00     10.60     0.00        4     0.00     0.00  AMod::BondRange::operator=(AMod::BondRange const&)
+  0.00     10.60     0.00        4     0.00     0.00  void std::vector<AMod::Atom::Data*, std::allocator<AMod::Atom::Data*> >::_M_range_insert<__gnu_cxx::__normal_iterator<AMod::Atom::Data**, std::vector<AMod::Atom::Data*, std::allocator<AMod::Atom::Data*> > > >(__gnu_cxx::__normal_iterator<AMod::Atom::Data**, std::vector<AMod::Atom::Data*, std::allocator<AMod::Atom::Data*> > >, __gnu_cxx::__normal_iterator<AMod::Atom::Data**, std::vector<AMod::Atom::Data*, std::allocator<AMod::Atom::Data*> > >, __gnu_cxx::__normal_iterator<AMod::Atom::Data**, std::vector<AMod::Atom::Data*, std::allocator<AMod::Atom::Data*> > >, std::forward_iterator_tag)
+  0.00     10.60     0.00        4     0.00     0.00  std::vector<AMod::Atom::Data*, std::allocator<AMod::Atom::Data*> >::erase(__gnu_cxx::__normal_iterator<AMod::Atom::Data**, std::vector<AMod::Atom::Data*, std::allocator<AMod::Atom::Data*> > >, __gnu_cxx::__normal_iterator<AMod::Atom::Data**, std::vector<AMod::Atom::Data*, std::allocator<AMod::Atom::Data*> > >)
+  0.00     10.60     0.00        3     0.00     1.43  AMod::MolTopo::sync()
+  0.00     10.60     0.00        3     0.00     1.76  AMod::MolTopo::MolTopo()
+  0.00     10.60     0.00        3     0.00     0.00  AMod::MolTopo::~MolTopo()
+  0.00     10.60     0.00        3     0.00     0.00  Util::PtrCont<AMod::Atom>::cleanup()
+  0.00     10.60     0.00        3     0.00     0.00  Util::PtrCont<AMod::Bond>::cleanup()
+  0.00     10.60     0.00        3     0.00     0.00  Util::PtrCont<AMod::MolTopo::A2CLink>::cleanup()
+  0.00     10.60     0.00        3     0.00     0.00  std::vector<AMod::Atom*, std::allocator<AMod::Atom*> >::_M_fill_insert(__gnu_cxx::__normal_iterator<AMod::Atom**, std::vector<AMod::Atom*, std::allocator<AMod::Atom*> > >, unsigned int, AMod::Atom* const&)
+  0.00     10.60     0.00        2     0.00     3.52  AMod::ForceLCBOPIIN::reset()
+  0.00     10.60     0.00        2     0.00     0.00  AMod::MolIO::reset()
+  0.00     10.60     0.00        2     0.00     1.76  AMod::Molecule::reset()
+  0.00     10.60     0.00        2     0.00     0.00  Util::PtrCont<AMod::Atom::Data>::cleanup()
+  0.00     10.60     0.00        2     0.00     0.00  LCBOPII::Energy::bondRangeSR()
+  0.00     10.60     0.00        2     0.00     0.00  LCBOPII::Energy::cellLengthSR()
+  0.00     10.60     0.00        2     0.00     0.00  LCBOPII::Energy::reset()
+  0.00     10.60     0.00        2     0.00     0.00  std::vector<AMod::Atom::Data*, std::allocator<AMod::Atom::Data*> >::_M_fill_insert(__gnu_cxx::__normal_iterator<AMod::Atom::Data**, std::vector<AMod::Atom::Data*, std::allocator<AMod::Atom::Data*> > >, unsigned int, AMod::Atom::Data* const&)
+  0.00     10.60     0.00        1     0.00     0.00  global constructors keyed to AMod::KernelREBO::KernelREBO()
+  0.00     10.60     0.00        1     0.00     0.00  global constructors keyed to AMod::MolChecker::MolChecker()
+  0.00     10.60     0.00        1     0.00     0.00  global constructors keyed to AMod::MolFactory::MolFactory()
+  0.00     10.60     0.00        1     0.00     0.00  global constructors keyed to AMod::MolAdjuster::MolAdjuster()
+  0.00     10.60     0.00        1     0.00     0.00  global constructors keyed to AMod::KernelLCBOPIIN::KernelLCBOPIIN()
+  0.00     10.60     0.00        1     0.00     0.00  global constructors keyed to AMod::Box::TOP_LEFT
+  0.00     10.60     0.00        1     0.00     0.00  global constructors keyed to AMod::Bond::Bond()
+  0.00     10.60     0.00        1     0.00     0.00  global constructors keyed to AMod::MolI::MolI()
+  0.00     10.60     0.00        1     0.00     0.00  global constructors keyed to AMod::Trans::SAFE_COEF
+  0.00     10.60     0.00        1     0.00     0.00  global constructors keyed to AMod::MolAnal::DEFAULT_MAX_CHAIN_LENGTH
+  0.00     10.60     0.00        1     0.00     0.00  global constructors keyed to AMod::MolTopo::MolTopo()
+  0.00     10.60     0.00        1     0.00     0.00  global constructors keyed to AMod::Molecule::Molecule()
+  0.00     10.60     0.00        1     0.00     0.00  global constructors keyed to AMod::MolScaler::MolScaler()
+  0.00     10.60     0.00        1     0.00     0.00  global constructors keyed to REBO::Force::Force(REBO::Energy&)
+  0.00     10.60     0.00        1     0.00     0.00  global constructors keyed to REBO::Energy::Energy()
+  0.00     10.60     0.00        1     0.00     0.00  global constructors keyed to LCBOPII::Energy::fb(AMod::Arrow const&)
+  0.00     10.60     0.00        1     0.00     0.00  global constructors keyed to LCBOPII::Energy::fPreF(AMod::Arrow const&, std::vector<LCBOPII::Energy::FDatum, std::allocator<LCBOPII::Energy::FDatum> >&)
+  0.00     10.60     0.00        1     0.00     0.00  global constructors keyed to LCBOPII::Energy::fSVlr(AMod::Bond const&)
+  0.00     10.60     0.00        1     0.00     0.00  global constructors keyed to LCBOPII::Energy::fSVmr(AMod::Arrow const&, AMod::MolTopo const&)
+  0.00     10.60     0.00        1     0.00     0.00  global constructors keyed to LCBOPII::Energy::fSVsr(AMod::Bond const&)
+  0.00     10.60     0.00        1     0.00     0.00  global constructors keyed to LCBOPII::Energy::Energy()
+  0.00     10.60     0.00        1     0.00     0.00  global constructors keyed to tbtools::Qi(double)
+  0.00     10.60     0.00        1     0.00     0.00  global constructors keyed to tbtools::cross(double const*, double const*, double*)
+  0.00     10.60     0.00        1     0.00     0.00  global constructors keyed to tbtools::XDBGen(int, int, int)
+  0.00     10.60     0.00        1     0.00     0.00  global constructors keyed to tbtools::init_in2()
+  0.00     10.60     0.00        1     0.00     0.00  global constructors keyed to tbtools::init_in3()
+  0.00     10.60     0.00        1     0.00     0.00  global constructors keyed to main
+  0.00     10.60     0.00        1     0.00   119.77  readxyz(std::istream&, AMod::Molecule&)
+  0.00     10.60     0.00        1     0.00     0.00  AMod::MolService<AMod::Molecule>::attach(AMod::Molecule&)
+  0.00     10.60     0.00        1     0.00   406.45  AMod::ForceLCBOPIIN::init()
+  0.00     10.60     0.00        1     0.00   349.76  AMod::ForceLCBOPIIN::update()
+  0.00     10.60     0.00        1     0.00     7.04  AMod::ForceLCBOPIIN::ForceLCBOPIIN(AMod::Molecule&)
+  0.00     10.60     0.00        1     0.00     0.00  AMod::ForceLCBOPIIN::~ForceLCBOPIIN()
+  0.00     10.60     0.00        1     0.00     7.04  AMod::KernelLCBOPIIN::init()
+  0.00     10.60     0.00        1     0.00     3.52  AMod::KernelLCBOPIIN::final()
+  0.00     10.60     0.00        1     0.00     0.00  AMod::KernelLCBOPIIN::KernelLCBOPIIN(AMod::Molecule&)
+  0.00     10.60     0.00        1     0.00     0.00  AMod::KernelLCBOPIIN::~KernelLCBOPIIN()
+  0.00     10.60     0.00        1     0.00     0.00  AMod::MolIO::attach(AMod::Molecule&)
+  0.00     10.60     0.00        1     0.00     0.00  AMod::MolIO::MolIO()
+  0.00     10.60     0.00        1     0.00     0.00  AMod::Molecule::attach()
+  0.00     10.60     0.00        1     0.00     3.52  AMod::Molecule::Molecule()
+  0.00     10.60     0.00        1     0.00     0.00  Util::PtrCont<LCBOPII::AtomDatumMR>::cleanup()
+  0.00     10.60     0.00        1     0.00     0.00  Util::PtrCont<LCBOPII::BondDatumLR>::cleanup()
+  0.00     10.60     0.00        1     0.00     0.00  Util::PtrCont<LCBOPII::BondDatumSR>::cleanup()
+  0.00     10.60     0.00        1     0.00     0.00  LCBOPII::Energy::bondRangeLR()
+  0.00     10.60     0.00        1     0.00     0.00  LCBOPII::Energy::bondRangeMR()
+  0.00     10.60     0.00        1     0.00     0.00  LCBOPII::Energy::cellLengthLR()
+  0.00     10.60     0.00        1     0.00     0.00  LCBOPII::Energy::cellLengthMR()
+  0.00     10.60     0.00        1     0.00     0.00  LCBOPII::Energy::Energy()
+  0.00     10.60     0.00        1     0.00     0.00  LCBOPII::Energy::~Energy()
+  0.00     10.60     0.00        1     0.00     0.00  std::vector<LCBOPII::AtomDatumMR*, std::allocator<LCBOPII::AtomDatumMR*> >::_M_fill_insert(__gnu_cxx::__normal_iterator<LCBOPII::AtomDatumMR**, std::vector<LCBOPII::AtomDatumMR*, std::allocator<LCBOPII::AtomDatumMR*> > >, unsigned int, LCBOPII::AtomDatumMR* const&)
+  0.00     10.60     0.00        1     0.00     0.00  std::vector<LCBOPII::BondDatumLR*, std::allocator<LCBOPII::BondDatumLR*> >::_M_fill_insert(__gnu_cxx::__normal_iterator<LCBOPII::BondDatumLR**, std::vector<LCBOPII::BondDatumLR*, std::allocator<LCBOPII::BondDatumLR*> > >, unsigned int, LCBOPII::BondDatumLR* const&)
+  0.00     10.60     0.00        1     0.00     0.00  std::vector<LCBOPII::BondDatumSR*, std::allocator<LCBOPII::BondDatumSR*> >::_M_fill_insert(__gnu_cxx::__normal_iterator<LCBOPII::BondDatumSR**, std::vector<LCBOPII::BondDatumSR*, std::allocator<LCBOPII::BondDatumSR*> > >, unsigned int, LCBOPII::BondDatumSR* const&)
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+ 
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this 
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 4 byte(s) for 0.09% of 10.60 seconds
+
+index % time    self  children    called     name
+                                                 <spontaneous>
+[1]    100.0    0.00   10.60                 main [1]
+                0.00   10.06     200/200         AMod::KernelLCBOPIIN::energy() [4]
+                0.00    0.41       1/1           AMod::ForceLCBOPIIN::init() [15]
+                0.00    0.12       1/1           readxyz(std::istream&, AMod::Molecule&) [22]
+                0.00    0.01       1/1           AMod::KernelLCBOPIIN::init() [43]
+                0.00    0.00       1/1           AMod::Molecule::Molecule() [51]
+                0.00    0.00       1/1           AMod::KernelLCBOPIIN::final() [50]
+                0.00    0.00       2/2           Util::PtrCont<AMod::Atom::Data>::cleanup() [131]
+                0.00    0.00       1/1           AMod::KernelLCBOPIIN::KernelLCBOPIIN(AMod::Molecule&) [165]
+                0.00    0.00       1/1           AMod::ForceLCBOPIIN::~ForceLCBOPIIN() [164]
+                0.00    0.00       1/1           AMod::KernelLCBOPIIN::~KernelLCBOPIIN() [166]
+                0.00    0.00       1/3           AMod::MolTopo::~MolTopo() [125]
+-----------------------------------------------
+                0.00    0.05       1/201         AMod::ForceLCBOPIIN::init() [15]
+                0.00   10.06     200/201         AMod::KernelLCBOPIIN::energy() [4]
+[2]     95.4    0.00   10.11     201         AMod::ForceLCBOPIIN::computeEnergy() [2]
+                0.11   10.00     201/201         LCBOPII::Energy::computeE(AMod::MolTopo const&, AMod::MolTopo const&, AMod::MolTopo const&) [3]
+-----------------------------------------------
+                0.11   10.00     201/201         AMod::ForceLCBOPIIN::computeEnergy() [2]
+[3]     95.4    0.11   10.00     201         LCBOPII::Energy::computeE(AMod::MolTopo const&, AMod::MolTopo const&, AMod::MolTopo const&) [3]
+                0.11    7.09  347328/347328      LCBOPII::Energy::compute_r4(AMod::Atom const&, AMod::MolTopo const&) [5]
+                0.01    1.46  713952/713952      LCBOPII::Energy::compute_r2(AMod::Bond const&) [7]
+                0.58    0.68 23754984/23754984     LCBOPII::Energy::compute_r3(AMod::Bond const&) [9]
+                0.04    0.00  347328/347328      LCBOPII::Energy::compute_r1(AMod::Atom const&) [26]
+                0.03    0.00  713952/713952      LCBOPII::Energy::compute_r0(AMod::Bond const&) [28]
+                0.00    0.00     201/203         Util::PtrCont<LCBOPII::BondDatumSR>::resize(int) [86]
+                0.00    0.00     201/203         Util::PtrCont<LCBOPII::BondDatumLR>::resize(int) [85]
+                0.00    0.00     201/203         Util::PtrCont<LCBOPII::AtomDatumMR>::resize(int) [84]
+-----------------------------------------------
+                0.00   10.06     200/200         main [1]
+[4]     94.9    0.00   10.06     200         AMod::KernelLCBOPIIN::energy() [4]
+                0.00   10.06     200/201         AMod::ForceLCBOPIIN::computeEnergy() [2]
+-----------------------------------------------
+                0.11    7.09  347328/347328      LCBOPII::Energy::computeE(AMod::MolTopo const&, AMod::MolTopo const&, AMod::MolTopo const&) [3]
+[5]     67.9    0.11    7.09  347328         LCBOPII::Energy::compute_r4(AMod::Atom const&, AMod::MolTopo const&) [5]
+                7.09    0.00 13053744/13053744     LCBOPII::Energy::fSVmr(AMod::Arrow const&, AMod::MolTopo const&) [6]
+-----------------------------------------------
+                7.09    0.00 13053744/13053744     LCBOPII::Energy::compute_r4(AMod::Atom const&, AMod::MolTopo const&) [5]
+[6]     66.9    7.09    0.00 13053744         LCBOPII::Energy::fSVmr(AMod::Arrow const&, AMod::MolTopo const&) [6]
+-----------------------------------------------
+                0.01    1.46  713952/713952      LCBOPII::Energy::computeE(AMod::MolTopo const&, AMod::MolTopo const&, AMod::MolTopo const&) [3]
+[7]     13.9    0.01    1.46  713952         LCBOPII::Energy::compute_r2(AMod::Bond const&) [7]
+                0.03    1.43  713952/713952      LCBOPII::Energy::fSVsr(AMod::Bond const&) [8]
+-----------------------------------------------
+                0.03    1.43  713952/713952      LCBOPII::Energy::compute_r2(AMod::Bond const&) [7]
+[8]     13.8    0.03    1.43  713952         LCBOPII::Energy::fSVsr(AMod::Bond const&) [8]
+                0.21    0.69  713952/713952      LCBOPII::Energy::fFAT(AMod::Bond const&) [10]
+                0.49    0.04 1427904/1427904     LCBOPII::Energy::fb(AMod::Arrow const&) [12]
+-----------------------------------------------
+                0.58    0.68 23754984/23754984     LCBOPII::Energy::computeE(AMod::MolTopo const&, AMod::MolTopo const&, AMod::MolTopo const&) [3]
+[9]     11.9    0.58    0.68 23754984         LCBOPII::Energy::compute_r3(AMod::Bond const&) [9]
+                0.68    0.00 23754984/23754984     LCBOPII::Energy::fSVlr(AMod::Bond const&) [11]
+-----------------------------------------------
+                0.21    0.69  713952/713952      LCBOPII::Energy::fSVsr(AMod::Bond const&) [8]
+[10]     8.5    0.21    0.69  713952         LCBOPII::Energy::fFAT(AMod::Bond const&) [10]
+                0.17    0.19 1427904/1427904     LCBOPII::Energy::fPreF(AMod::Arrow const&, std::vector<LCBOPII::Energy::FDatum, std::allocator<LCBOPII::Energy::FDatum> >&) [17]
+                0.33    0.00 1238160/1238160     LCBOPII::(anonymous namespace)::ftvec(double const*, double const*, double const*, double*) [19]
+-----------------------------------------------
+                0.68    0.00 23754984/23754984     LCBOPII::Energy::compute_r3(AMod::Bond const&) [9]
+[11]     6.4    0.68    0.00 23754984         LCBOPII::Energy::fSVlr(AMod::Bond const&) [11]
+-----------------------------------------------
+                0.49    0.04 1427904/1427904     LCBOPII::Energy::fSVsr(AMod::Bond const&) [8]
+[12]     5.0    0.49    0.04 1427904         LCBOPII::Energy::fb(AMod::Arrow const&) [12]
+                0.04    0.00 4557072/4557072     LCBOPII::(anonymous namespace)::fG1(double) [23]
+-----------------------------------------------
+                0.00    0.12       1/4           readxyz(std::istream&, AMod::Molecule&) [22]
+                0.00    0.35       3/4           AMod::ForceLCBOPIIN::update() [18]
+[13]     4.4    0.00    0.47       4         AMod::MolTopo::updateConnection(AMod::MolTopoMode) [13]
+                0.08    0.38    6912/6912        AMod::MolTopo::updateHardConnection(int, bool) [14]
+                0.00    0.00       4/4           AMod::MolTopo::clearConnection() [52]
+                0.00    0.00    6912/6912        AMod::MolTopo::updateCellsMoveAtom(int) [55]
+-----------------------------------------------
+                0.08    0.38    6912/6912        AMod::MolTopo::updateConnection(AMod::MolTopoMode) [13]
+[14]     4.4    0.08    0.38    6912         AMod::MolTopo::updateHardConnection(int, bool) [14]
+                0.02    0.35 1922944/1922944     AMod::MolTopo::newHardBond(int, int) [16]
+                0.01    0.00    6912/6912        std::_Rb_tree<AMod::MolTopo::Cell, AMod::MolTopo::Cell, std::_Identity<AMod::MolTopo::Cell>, std::less<AMod::MolTopo::Cell>, std::allocator<AMod::MolTopo::Cell> >::_M_erase(std::_Rb_tree_node<AMod::MolTopo::Cell>*) [40]
+                0.00    0.00  186624/186624      std::_Rb_tree<AMod::MolTopo::Cell, AMod::MolTopo::Cell, std::_Identity<AMod::MolTopo::Cell>, std::less<AMod::MolTopo::Cell>, std::allocator<AMod::MolTopo::Cell> >::_M_insert_(std::_Rb_tree_node_base const*, std::_Rb_tree_node_base const*, AMod::MolTopo::Cell const&) [67]
+-----------------------------------------------
+                0.00    0.41       1/1           main [1]
+[15]     3.8    0.00    0.41       1         AMod::ForceLCBOPIIN::init() [15]
+                0.00    0.35       1/1           AMod::ForceLCBOPIIN::update() [18]
+                0.00    0.05       1/201         AMod::ForceLCBOPIIN::computeEnergy() [2]
+                0.00    0.00       2/11          AMod::MolTopo::clear() [34]
+                0.00    0.00       2/3           AMod::MolTopo::sync() [48]
+                0.00    0.00       3/11          AMod::MolTopo::update(AMod::MolTopoCase) [57]
+                0.00    0.00       3/4           AMod::BondRange::operator=(AMod::BondRange const&) [122]
+                0.00    0.00       3/7           AMod::BondRange::~BondRange() [113]
+                0.00    0.00       2/11          AMod::MolTopo::reset() [110]
+                0.00    0.00       1/2           LCBOPII::Energy::bondRangeSR() [132]
+                0.00    0.00       1/2           LCBOPII::Energy::cellLengthSR() [133]
+                0.00    0.00       1/1           LCBOPII::Energy::bondRangeMR() [174]
+                0.00    0.00       1/1           LCBOPII::Energy::cellLengthMR() [176]
+                0.00    0.00       1/1           LCBOPII::Energy::bondRangeLR() [173]
+                0.00    0.00       1/1           LCBOPII::Energy::cellLengthLR() [175]
+-----------------------------------------------
+                0.02    0.35 1922944/1922944     AMod::MolTopo::updateHardConnection(int, bool) [14]
+[16]     3.5    0.02    0.35 1922944         AMod::MolTopo::newHardBond(int, int) [16]
+                0.25    0.03 1922944/1922944     AMod::Trans::findImage3(double*, double const*, double) const [20]
+                0.04    0.00 1922944/1922944     AMod::Trans::findImage(double*, double const*, double) const [25]
+                0.00    0.03  157760/157760      AMod::Bond::connect(AMod::Atom&, AMod::Atom&) [30]
+                0.00    0.01  157760/157760      Util::PtrCont<AMod::Bond>::push_back() [46]
+                0.00    0.00 1922944/1922944     AMod::BondRange::max(int, int) const [63]
+                0.00    0.00  162624/162624      AMod::BondRange::min(int, int) const [68]
+                0.00    0.00  157760/157760      AMod::Bond::setup(double const&, double const*, int const*) [69]
+-----------------------------------------------
+                0.17    0.19 1427904/1427904     LCBOPII::Energy::fFAT(AMod::Bond const&) [10]
+[17]     3.4    0.17    0.19 1427904         LCBOPII::Energy::fPreF(AMod::Arrow const&, std::vector<LCBOPII::Energy::FDatum, std::allocator<LCBOPII::Energy::FDatum> >&) [17]
+                0.12    0.01 1669104/1669104     std::vector<LCBOPII::Energy::FDatum, std::allocator<LCBOPII::Energy::FDatum> >::_M_insert_aux(__gnu_cxx::__normal_iterator<LCBOPII::Energy::FDatum*, std::vector<LCBOPII::Energy::FDatum, std::allocator<LCBOPII::Energy::FDatum> > >, LCBOPII::Energy::FDatum const&) [21]
+                0.04    0.00 2855808/2855808     std::vector<int, std::allocator<int> >::reserve(unsigned int) [24]
+                0.02    0.00  599784/599784      std::vector<int, std::allocator<int> >::_M_insert_aux(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) [31]
+                0.00    0.00 1588704/1588704     std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) [64]
+                0.00    0.00  988920/988920      std::vector<LCBOPII::Energy::FDatum, std::allocator<LCBOPII::Energy::FDatum> >::_M_fill_insert(__gnu_cxx::__normal_iterator<LCBOPII::Energy::FDatum*, std::vector<LCBOPII::Energy::FDatum, std::allocator<LCBOPII::Energy::FDatum> > >, unsigned int, LCBOPII::Energy::FDatum const&) [65]
+-----------------------------------------------
+                0.00    0.35       1/1           AMod::ForceLCBOPIIN::init() [15]
+[18]     3.3    0.00    0.35       1         AMod::ForceLCBOPIIN::update() [18]
+                0.00    0.35       3/4           AMod::MolTopo::updateConnection(AMod::MolTopoMode) [13]
+                0.00    0.00       6/11          AMod::MolTopo::update(AMod::MolTopoCase) [57]
+                0.00    0.00       3/6916        AMod::MolTopo::setupAxes() [56]
+-----------------------------------------------
+                0.33    0.00 1238160/1238160     LCBOPII::Energy::fFAT(AMod::Bond const&) [10]
+[19]     3.1    0.33    0.00 1238160         LCBOPII::(anonymous namespace)::ftvec(double const*, double const*, double const*, double*) [19]
+-----------------------------------------------
+                0.25    0.03 1922944/1922944     AMod::MolTopo::newHardBond(int, int) [16]
+[20]     2.6    0.25    0.03 1922944         AMod::Trans::findImage3(double*, double const*, double) const [20]
+                0.03    0.00 1922944/1941952     AMod::Trans::proj(double const*, double*) const [27]
+-----------------------------------------------
+                0.12    0.01 1669104/1669104     LCBOPII::Energy::fPreF(AMod::Arrow const&, std::vector<LCBOPII::Energy::FDatum, std::allocator<LCBOPII::Energy::FDatum> >&) [17]
+[21]     1.2    0.12    0.01 1669104         std::vector<LCBOPII::Energy::FDatum, std::allocator<LCBOPII::Energy::FDatum> >::_M_insert_aux(__gnu_cxx::__normal_iterator<LCBOPII::Energy::FDatum*, std::vector<LCBOPII::Energy::FDatum, std::allocator<LCBOPII::Energy::FDatum> > >, LCBOPII::Energy::FDatum const&) [21]
+                0.01    0.00 3338208/3338208     LCBOPII::Energy::FDatum* std::__uninitialized_move_a<LCBOPII::Energy::FDatum*, LCBOPII::Energy::FDatum*, std::allocator<LCBOPII::Energy::FDatum> >(LCBOPII::Energy::FDatum*, LCBOPII::Energy::FDatum*, LCBOPII::Energy::FDatum*, std::allocator<LCBOPII::Energy::FDatum>&) [37]
+-----------------------------------------------
+                0.00    0.12       1/1           main [1]
+[22]     1.1    0.00    0.12       1         readxyz(std::istream&, AMod::Molecule&) [22]
+                0.00    0.12       1/4           AMod::MolTopo::updateConnection(AMod::MolTopoMode) [13]
+                0.00    0.00       1/2           AMod::Molecule::reset() [49]
+                0.00    0.00       1/3           AMod::MolTopo::sync() [48]
+                0.00    0.00       2/11          AMod::MolTopo::update(AMod::MolTopoCase) [57]
+                0.00    0.00       1/6916        AMod::MolTopo::setupAxes() [56]
+                0.00    0.00    1731/1731        AMod::Atom::Data::Data(int, double, double, double) [81]
+                0.00    0.00    1731/1731        AMod::Atom::Data::operator=(AMod::Atom::Data const&) [83]
+                0.00    0.00       2/6           Util::PtrCont<AMod::Atom::Data>::resize(int) [120]
+                0.00    0.00       1/2           AMod::MolIO::reset() [130]
+                0.00    0.00       1/2           LCBOPII::Energy::bondRangeSR() [132]
+                0.00    0.00       1/4           AMod::BondRange::operator=(AMod::BondRange const&) [122]
+                0.00    0.00       1/7           AMod::BondRange::~BondRange() [113]
+                0.00    0.00       1/2           LCBOPII::Energy::cellLengthSR() [133]
+-----------------------------------------------
+                0.04    0.00 4557072/4557072     LCBOPII::Energy::fb(AMod::Arrow const&) [12]
+[23]     0.4    0.04    0.00 4557072         LCBOPII::(anonymous namespace)::fG1(double) [23]
+-----------------------------------------------
+                0.04    0.00 2855808/2855808     LCBOPII::Energy::fPreF(AMod::Arrow const&, std::vector<LCBOPII::Energy::FDatum, std::allocator<LCBOPII::Energy::FDatum> >&) [17]
+[24]     0.4    0.04    0.00 2855808         std::vector<int, std::allocator<int> >::reserve(unsigned int) [24]
+-----------------------------------------------
+                0.04    0.00 1922944/1922944     AMod::MolTopo::newHardBond(int, int) [16]
+[25]     0.4    0.04    0.00 1922944         AMod::Trans::findImage(double*, double const*, double) const [25]
+-----------------------------------------------
+                0.04    0.00  347328/347328      LCBOPII::Energy::computeE(AMod::MolTopo const&, AMod::MolTopo const&, AMod::MolTopo const&) [3]
+[26]     0.4    0.04    0.00  347328         LCBOPII::Energy::compute_r1(AMod::Atom const&) [26]
+-----------------------------------------------
+                0.00    0.00   19008/1941952     AMod::MolTopo::whatCell(double const*, AMod::MolTopo::Cell&) const [53]
+                0.03    0.00 1922944/1941952     AMod::Trans::findImage3(double*, double const*, double) const [20]
+[27]     0.3    0.03    0.00 1941952         AMod::Trans::proj(double const*, double*) const [27]
+-----------------------------------------------
+                0.03    0.00  713952/713952      LCBOPII::Energy::computeE(AMod::MolTopo const&, AMod::MolTopo const&, AMod::MolTopo const&) [3]
+[28]     0.3    0.03    0.00  713952         LCBOPII::Energy::compute_r0(AMod::Bond const&) [28]
+-----------------------------------------------
+                0.02    0.01  315520/315520      AMod::Bond::connect(AMod::Atom&, AMod::Atom&) [30]
+[29]     0.3    0.02    0.01  315520         Util::PtrCont<AMod::Arrow>::push_back() [29]
+                0.01    0.00   33120/33120       std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> >::_M_insert_aux(__gnu_cxx::__normal_iterator<AMod::Arrow**, std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> > >, AMod::Arrow* const&) [39]
+-----------------------------------------------
+                0.00    0.03  157760/157760      AMod::MolTopo::newHardBond(int, int) [16]
+[30]     0.3    0.00    0.03  157760         AMod::Bond::connect(AMod::Atom&, AMod::Atom&) [30]
+                0.02    0.01  315520/315520      Util::PtrCont<AMod::Arrow>::push_back() [29]
+-----------------------------------------------
+                0.02    0.00  599784/599784      LCBOPII::Energy::fPreF(AMod::Arrow const&, std::vector<LCBOPII::Energy::FDatum, std::allocator<LCBOPII::Energy::FDatum> >&) [17]
+[31]     0.2    0.02    0.00  599784         std::vector<int, std::allocator<int> >::_M_insert_aux(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) [31]
+-----------------------------------------------
+                0.01    0.00    3456/12096       AMod::Atom::operator=(AMod::Atom const&) [44]
+                0.01    0.00    8640/12096       AMod::Atom::reset() [35]
+[32]     0.2    0.02    0.00   12096         Util::PtrCont<AMod::Arrow>::resize(int) [32]
+                0.00    0.00   15552/24192       std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> >::erase(__gnu_cxx::__normal_iterator<AMod::Arrow**, std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> > >, __gnu_cxx::__normal_iterator<AMod::Arrow**, std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> > >) [72]
+                0.00    0.00   12096/19008       void std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> >::_M_range_insert<__gnu_cxx::__normal_iterator<AMod::Arrow**, std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> > > >(__gnu_cxx::__normal_iterator<AMod::Arrow**, std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> > >, __gnu_cxx::__normal_iterator<AMod::Arrow**, std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> > >, __gnu_cxx::__normal_iterator<AMod::Arrow**, std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> > >, std::forward_iterator_tag) [73]
+-----------------------------------------------
+                0.00    0.00       3/14          AMod::MolTopo::sync() [48]
+                0.00    0.02      11/14          AMod::MolTopo::clear() [34]
+[33]     0.2    0.00    0.02      14         Util::PtrCont<AMod::Atom>::resize(int) [33]
+                0.00    0.01    8640/8640        AMod::Atom::Atom() [36]
+                0.00    0.01    3456/3456        AMod::Atom::operator=(AMod::Atom const&) [44]
+                0.00    0.00    6220/8640        AMod::Atom::~Atom() [75]
+                0.00    0.00      13/13          std::vector<AMod::Atom*, std::allocator<AMod::Atom*> >::erase(__gnu_cxx::__normal_iterator<AMod::Atom**, std::vector<AMod::Atom*, std::allocator<AMod::Atom*> > >, __gnu_cxx::__normal_iterator<AMod::Atom**, std::vector<AMod::Atom*, std::allocator<AMod::Atom*> > >) [108]
+                0.00    0.00      11/11          void std::vector<AMod::Atom*, std::allocator<AMod::Atom*> >::_M_range_insert<__gnu_cxx::__normal_iterator<AMod::Atom**, std::vector<AMod::Atom*, std::allocator<AMod::Atom*> > > >(__gnu_cxx::__normal_iterator<AMod::Atom**, std::vector<AMod::Atom*, std::allocator<AMod::Atom*> > >, __gnu_cxx::__normal_iterator<AMod::Atom**, std::vector<AMod::Atom*, std::allocator<AMod::Atom*> > >, __gnu_cxx::__normal_iterator<AMod::Atom**, std::vector<AMod::Atom*, std::allocator<AMod::Atom*> > >, std::forward_iterator_tag) [111]
+                0.00    0.00       3/3           std::vector<AMod::Atom*, std::allocator<AMod::Atom*> >::_M_fill_insert(__gnu_cxx::__normal_iterator<AMod::Atom**, std::vector<AMod::Atom*, std::allocator<AMod::Atom*> > >, unsigned int, AMod::Atom* const&) [129]
+-----------------------------------------------
+                0.00    0.00       2/11          AMod::Molecule::reset() [49]
+                0.00    0.00       2/11          AMod::ForceLCBOPIIN::init() [15]
+                0.00    0.01       3/11          AMod::MolTopo::MolTopo() [45]
+                0.00    0.01       4/11          AMod::ForceLCBOPIIN::reset() [41]
+[34]     0.2    0.00    0.02      11         AMod::MolTopo::clear() [34]
+                0.00    0.02      11/14          Util::PtrCont<AMod::Atom>::resize(int) [33]
+                0.00    0.00      11/15          Util::PtrCont<AMod::Bond>::resize(int) [47]
+                0.00    0.00      22/39          AMod::Trans::reset() [96]
+                0.00    0.00      11/18          AMod::MolTopo::clearCells() [104]
+-----------------------------------------------
+                0.00    0.01    8640/8640        AMod::Atom::Atom() [36]
+[35]     0.1    0.00    0.01    8640         AMod::Atom::reset() [35]
+                0.01    0.00    8640/12096       Util::PtrCont<AMod::Arrow>::resize(int) [32]
+-----------------------------------------------
+                0.00    0.01    8640/8640        Util::PtrCont<AMod::Atom>::resize(int) [33]
+[36]     0.1    0.00    0.01    8640         AMod::Atom::Atom() [36]
+                0.00    0.01    8640/8640        AMod::Atom::reset() [35]
+-----------------------------------------------
+                0.01    0.00 3338208/3338208     std::vector<LCBOPII::Energy::FDatum, std::allocator<LCBOPII::Energy::FDatum> >::_M_insert_aux(__gnu_cxx::__normal_iterator<LCBOPII::Energy::FDatum*, std::vector<LCBOPII::Energy::FDatum, std::allocator<LCBOPII::Energy::FDatum> > >, LCBOPII::Energy::FDatum const&) [21]
+[37]     0.1    0.01    0.00 3338208         LCBOPII::Energy::FDatum* std::__uninitialized_move_a<LCBOPII::Energy::FDatum*, LCBOPII::Energy::FDatum*, std::allocator<LCBOPII::Energy::FDatum> >(LCBOPII::Energy::FDatum*, LCBOPII::Energy::FDatum*, LCBOPII::Energy::FDatum*, std::allocator<LCBOPII::Energy::FDatum>&) [37]
+-----------------------------------------------
+                0.00    0.00  154208/311258      Util::PtrCont<AMod::Bond>::resize(int) [47]
+                0.01    0.00  157050/311258      Util::PtrCont<AMod::Bond>::push_back() [46]
+[38]     0.1    0.01    0.00  311258         AMod::Bond::Bond() [38]
+-----------------------------------------------
+                0.01    0.00   33120/33120       Util::PtrCont<AMod::Arrow>::push_back() [29]
+[39]     0.1    0.01    0.00   33120         std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> >::_M_insert_aux(__gnu_cxx::__normal_iterator<AMod::Arrow**, std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> > >, AMod::Arrow* const&) [39]
+                0.00    0.00   66240/66240       AMod::Arrow** std::__copy_move_a<false, AMod::Arrow**, AMod::Arrow**>(AMod::Arrow**, AMod::Arrow**, AMod::Arrow**) [71]
+-----------------------------------------------
+                              186624             std::_Rb_tree<AMod::MolTopo::Cell, AMod::MolTopo::Cell, std::_Identity<AMod::MolTopo::Cell>, std::less<AMod::MolTopo::Cell>, std::allocator<AMod::MolTopo::Cell> >::_M_erase(std::_Rb_tree_node<AMod::MolTopo::Cell>*) [40]
+                0.01    0.00    6912/6912        AMod::MolTopo::updateHardConnection(int, bool) [14]
+[40]     0.1    0.01    0.00    6912+186624  std::_Rb_tree<AMod::MolTopo::Cell, AMod::MolTopo::Cell, std::_Identity<AMod::MolTopo::Cell>, std::less<AMod::MolTopo::Cell>, std::allocator<AMod::MolTopo::Cell> >::_M_erase(std::_Rb_tree_node<AMod::MolTopo::Cell>*) [40]
+                              186624             std::_Rb_tree<AMod::MolTopo::Cell, AMod::MolTopo::Cell, std::_Identity<AMod::MolTopo::Cell>, std::less<AMod::MolTopo::Cell>, std::allocator<AMod::MolTopo::Cell> >::_M_erase(std::_Rb_tree_node<AMod::MolTopo::Cell>*) [40]
+-----------------------------------------------
+                0.00    0.00       1/2           AMod::KernelLCBOPIIN::final() [50]
+                0.00    0.00       1/2           AMod::ForceLCBOPIIN::ForceLCBOPIIN(AMod::Molecule&) [42]
+[41]     0.1    0.00    0.01       2         AMod::ForceLCBOPIIN::reset() [41]
+                0.00    0.01       4/11          AMod::MolTopo::clear() [34]
+                0.00    0.00       4/11          AMod::MolTopo::reset() [110]
+                0.00    0.00       2/2           LCBOPII::Energy::reset() [134]
+-----------------------------------------------
+                0.00    0.01       1/1           AMod::KernelLCBOPIIN::init() [43]
+[42]     0.1    0.00    0.01       1         AMod::ForceLCBOPIIN::ForceLCBOPIIN(AMod::Molecule&) [42]
+                0.00    0.00       2/3           AMod::MolTopo::MolTopo() [45]
+                0.00    0.00       1/2           AMod::ForceLCBOPIIN::reset() [41]
+                0.00    0.00       1/1           LCBOPII::Energy::Energy() [177]
+-----------------------------------------------
+                0.00    0.01       1/1           main [1]
+[43]     0.1    0.00    0.01       1         AMod::KernelLCBOPIIN::init() [43]
+                0.00    0.01       1/1           AMod::ForceLCBOPIIN::ForceLCBOPIIN(AMod::Molecule&) [42]
+-----------------------------------------------
+                0.00    0.01    3456/3456        Util::PtrCont<AMod::Atom>::resize(int) [33]
+[44]     0.1    0.00    0.01    3456         AMod::Atom::operator=(AMod::Atom const&) [44]
+                0.01    0.00    3456/12096       Util::PtrCont<AMod::Arrow>::resize(int) [32]
+-----------------------------------------------
+                0.00    0.00       1/3           AMod::Molecule::Molecule() [51]
+                0.00    0.00       2/3           AMod::ForceLCBOPIIN::ForceLCBOPIIN(AMod::Molecule&) [42]
+[45]     0.0    0.00    0.01       3         AMod::MolTopo::MolTopo() [45]
+                0.00    0.01       3/11          AMod::MolTopo::clear() [34]
+                0.00    0.00       6/39          AMod::Trans::reset() [96]
+                0.00    0.00       6/6           AMod::Trans::Trans() [117]
+                0.00    0.00       3/18          AMod::BondRange::reset() [105]
+                0.00    0.00       3/7           AMod::BondRange::BondRange() [112]
+                0.00    0.00       3/11          AMod::MolTopo::reset() [110]
+-----------------------------------------------
+                0.00    0.01  157760/157760      AMod::MolTopo::newHardBond(int, int) [16]
+[46]     0.0    0.00    0.01  157760         Util::PtrCont<AMod::Bond>::push_back() [46]
+                0.01    0.00  157050/311258      AMod::Bond::Bond() [38]
+                0.00    0.00      47/47          std::vector<AMod::Bond*, std::allocator<AMod::Bond*> >::_M_insert_aux(__gnu_cxx::__normal_iterator<AMod::Bond**, std::vector<AMod::Bond*, std::allocator<AMod::Bond*> > >, AMod::Bond* const&) [95]
+-----------------------------------------------
+                0.00    0.00       4/15          AMod::MolTopo::clearConnection() [52]
+                0.00    0.00      11/15          AMod::MolTopo::clear() [34]
+[47]     0.0    0.00    0.00      15         Util::PtrCont<AMod::Bond>::resize(int) [47]
+                0.00    0.00  154208/311258      AMod::Bond::Bond() [38]
+                0.00    0.00  277575/311258      AMod::Bond::~Bond() [66]
+                0.00    0.00  154208/154208      AMod::Bond::operator=(AMod::Bond const&) [70]
+                0.00    0.00      18/18          std::vector<AMod::Bond*, std::allocator<AMod::Bond*> >::erase(__gnu_cxx::__normal_iterator<AMod::Bond**, std::vector<AMod::Bond*, std::allocator<AMod::Bond*> > >, __gnu_cxx::__normal_iterator<AMod::Bond**, std::vector<AMod::Bond*, std::allocator<AMod::Bond*> > >) [106]
+                0.00    0.00      15/15          void std::vector<AMod::Bond*, std::allocator<AMod::Bond*> >::_M_range_insert<__gnu_cxx::__normal_iterator<AMod::Bond**, std::vector<AMod::Bond*, std::allocator<AMod::Bond*> > > >(__gnu_cxx::__normal_iterator<AMod::Bond**, std::vector<AMod::Bond*, std::allocator<AMod::Bond*> > >, __gnu_cxx::__normal_iterator<AMod::Bond**, std::vector<AMod::Bond*, std::allocator<AMod::Bond*> > >, __gnu_cxx::__normal_iterator<AMod::Bond**, std::vector<AMod::Bond*, std::allocator<AMod::Bond*> > >, std::forward_iterator_tag) [107]
+-----------------------------------------------
+                0.00    0.00       1/3           readxyz(std::istream&, AMod::Molecule&) [22]
+                0.00    0.00       2/3           AMod::ForceLCBOPIIN::init() [15]
+[48]     0.0    0.00    0.00       3         AMod::MolTopo::sync() [48]
+                0.00    0.00       3/14          Util::PtrCont<AMod::Atom>::resize(int) [33]
+-----------------------------------------------
+                0.00    0.00       1/2           readxyz(std::istream&, AMod::Molecule&) [22]
+                0.00    0.00       1/2           AMod::Molecule::Molecule() [51]
+[49]     0.0    0.00    0.00       2         AMod::Molecule::reset() [49]
+                0.00    0.00       2/11          AMod::MolTopo::clear() [34]
+                0.00    0.00       4/6           Util::PtrCont<AMod::Atom::Data>::resize(int) [120]
+                0.00    0.00       2/11          AMod::MolTopo::reset() [110]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[50]     0.0    0.00    0.00       1         AMod::KernelLCBOPIIN::final() [50]
+                0.00    0.00       1/2           AMod::ForceLCBOPIIN::reset() [41]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[51]     0.0    0.00    0.00       1         AMod::Molecule::Molecule() [51]
+                0.00    0.00       1/3           AMod::MolTopo::MolTopo() [45]
+                0.00    0.00       1/2           AMod::Molecule::reset() [49]
+                0.00    0.00       1/1           AMod::MolIO::MolIO() [168]
+                0.00    0.00       1/1           AMod::Molecule::attach() [169]
+                0.00    0.00       1/2           AMod::MolIO::reset() [130]
+-----------------------------------------------
+                0.00    0.00       4/4           AMod::MolTopo::updateConnection(AMod::MolTopoMode) [13]
+[52]     0.0    0.00    0.00       4         AMod::MolTopo::clearConnection() [52]
+                0.00    0.00       4/15          Util::PtrCont<AMod::Bond>::resize(int) [47]
+                0.00    0.00    6912/6916        AMod::MolTopo::setupAxes() [56]
+-----------------------------------------------
+                0.00    0.00    6912/19008       AMod::MolTopo::updateCellsMoveAtom(int) [55]
+                0.00    0.00   12096/19008       AMod::MolTopo::setupCells(double) [54]
+[53]     0.0    0.00    0.00   19008         AMod::MolTopo::whatCell(double const*, AMod::MolTopo::Cell&) const [53]
+                0.00    0.00   19008/1941952     AMod::Trans::proj(double const*, double*) const [27]
+-----------------------------------------------
+                0.00    0.00       3/7           AMod::MolTopo::update(AMod::MolTopoCase) [57]
+                0.00    0.00       4/7           AMod::MolTopo::setupAxes() [56]
+[54]     0.0    0.00    0.00       7         AMod::MolTopo::setupCells(double) [54]
+                0.00    0.00   12096/19008       AMod::MolTopo::whatCell(double const*, AMod::MolTopo::Cell&) const [53]
+                0.00    0.00    2461/2461        std::_Rb_tree<AMod::MolTopo::Cell, std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > >, std::_Select1st<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > >, std::less<AMod::MolTopo::Cell>, std::allocator<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > > >::_M_insert_unique_(std::_Rb_tree_const_iterator<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > >, std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > const&) [80]
+                0.00    0.00      63/63          AMod::MolTopo::bondok(int) const [94]
+                0.00    0.00      14/36          NR::Vector<double>::~Vector() [98]
+                0.00    0.00       7/7           void Util::build_axes<Util::Array2D<double, 3, 3> >(int, Util::Array2D<double, 3, 3>&) [114]
+                0.00    0.00       7/18          NR::Matrix<double>::~Matrix() [103]
+                0.00    0.00       7/18          AMod::MolTopo::clearCells() [104]
+                0.00    0.00       7/25          Util::PtrCont<AMod::MolTopo::A2CLink>::resize(int) [99]
+                0.00    0.00       7/39          AMod::Trans::reset() [96]
+                0.00    0.00       7/11          AMod::Trans::init3(double const*, double const*, double const*) [109]
+-----------------------------------------------
+                0.00    0.00    6912/6912        AMod::MolTopo::updateConnection(AMod::MolTopoMode) [13]
+[55]     0.0    0.00    0.00    6912         AMod::MolTopo::updateCellsMoveAtom(int) [55]
+                0.00    0.00    6912/19008       AMod::MolTopo::whatCell(double const*, AMod::MolTopo::Cell&) const [53]
+-----------------------------------------------
+                0.00    0.00       1/6916        readxyz(std::istream&, AMod::Molecule&) [22]
+                0.00    0.00       3/6916        AMod::ForceLCBOPIIN::update() [18]
+                0.00    0.00    6912/6916        AMod::MolTopo::clearConnection() [52]
+[56]     0.0    0.00    0.00    6916         AMod::MolTopo::setupAxes() [56]
+                0.00    0.00       4/7           AMod::MolTopo::setupCells(double) [54]
+                0.00    0.00   12480/12480       AMod::Arrow::~Arrow() [74]
+                0.00    0.00    8640/24192       std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> >::erase(__gnu_cxx::__normal_iterator<AMod::Arrow**, std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> > >, __gnu_cxx::__normal_iterator<AMod::Arrow**, std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> > >) [72]
+                0.00    0.00    7104/7104        AMod::Arrow::Arrow() [77]
+                0.00    0.00    7104/7104        AMod::Arrow::operator=(AMod::Arrow const&) [78]
+                0.00    0.00    6912/19008       void std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> >::_M_range_insert<__gnu_cxx::__normal_iterator<AMod::Arrow**, std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> > > >(__gnu_cxx::__normal_iterator<AMod::Arrow**, std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> > >, __gnu_cxx::__normal_iterator<AMod::Arrow**, std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> > >, __gnu_cxx::__normal_iterator<AMod::Arrow**, std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> > >, std::forward_iterator_tag) [73]
+                0.00    0.00       4/4           AMod::MolTopo::setupTrans() [121]
+-----------------------------------------------
+                0.00    0.00       2/11          readxyz(std::istream&, AMod::Molecule&) [22]
+                0.00    0.00       3/11          AMod::ForceLCBOPIIN::init() [15]
+                0.00    0.00       6/11          AMod::ForceLCBOPIIN::update() [18]
+[57]     0.0    0.00    0.00      11         AMod::MolTopo::update(AMod::MolTopoCase) [57]
+                0.00    0.00       3/7           AMod::MolTopo::setupCells(double) [54]
+-----------------------------------------------
+                0.00    0.00 1922944/1922944     AMod::MolTopo::newHardBond(int, int) [16]
+[63]     0.0    0.00    0.00 1922944         AMod::BondRange::max(int, int) const [63]
+-----------------------------------------------
+                0.00    0.00 1588704/1588704     LCBOPII::Energy::fPreF(AMod::Arrow const&, std::vector<LCBOPII::Energy::FDatum, std::allocator<LCBOPII::Energy::FDatum> >&) [17]
+[64]     0.0    0.00    0.00 1588704         std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) [64]
+-----------------------------------------------
+                0.00    0.00  988920/988920      LCBOPII::Energy::fPreF(AMod::Arrow const&, std::vector<LCBOPII::Energy::FDatum, std::allocator<LCBOPII::Energy::FDatum> >&) [17]
+[65]     0.0    0.00    0.00  988920         std::vector<LCBOPII::Energy::FDatum, std::allocator<LCBOPII::Energy::FDatum> >::_M_fill_insert(__gnu_cxx::__normal_iterator<LCBOPII::Energy::FDatum*, std::vector<LCBOPII::Energy::FDatum, std::allocator<LCBOPII::Energy::FDatum> > >, unsigned int, LCBOPII::Energy::FDatum const&) [65]
+-----------------------------------------------
+                0.00    0.00   33683/311258      void Util::purge<std::vector<AMod::Bond*, std::allocator<AMod::Bond*> > >(std::vector<AMod::Bond*, std::allocator<AMod::Bond*> >&) [119]
+                0.00    0.00  277575/311258      Util::PtrCont<AMod::Bond>::resize(int) [47]
+[66]     0.0    0.00    0.00  311258         AMod::Bond::~Bond() [66]
+-----------------------------------------------
+                0.00    0.00  186624/186624      AMod::MolTopo::updateHardConnection(int, bool) [14]
+[67]     0.0    0.00    0.00  186624         std::_Rb_tree<AMod::MolTopo::Cell, AMod::MolTopo::Cell, std::_Identity<AMod::MolTopo::Cell>, std::less<AMod::MolTopo::Cell>, std::allocator<AMod::MolTopo::Cell> >::_M_insert_(std::_Rb_tree_node_base const*, std::_Rb_tree_node_base const*, AMod::MolTopo::Cell const&) [67]
+-----------------------------------------------
+                0.00    0.00  162624/162624      AMod::MolTopo::newHardBond(int, int) [16]
+[68]     0.0    0.00    0.00  162624         AMod::BondRange::min(int, int) const [68]
+-----------------------------------------------
+                0.00    0.00  157760/157760      AMod::MolTopo::newHardBond(int, int) [16]
+[69]     0.0    0.00    0.00  157760         AMod::Bond::setup(double const&, double const*, int const*) [69]
+-----------------------------------------------
+                0.00    0.00  154208/154208      Util::PtrCont<AMod::Bond>::resize(int) [47]
+[70]     0.0    0.00    0.00  154208         AMod::Bond::operator=(AMod::Bond const&) [70]
+-----------------------------------------------
+                0.00    0.00   66240/66240       std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> >::_M_insert_aux(__gnu_cxx::__normal_iterator<AMod::Arrow**, std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> > >, AMod::Arrow* const&) [39]
+[71]     0.0    0.00    0.00   66240         AMod::Arrow** std::__copy_move_a<false, AMod::Arrow**, AMod::Arrow**>(AMod::Arrow**, AMod::Arrow**, AMod::Arrow**) [71]
+-----------------------------------------------
+                0.00    0.00    8640/24192       AMod::MolTopo::setupAxes() [56]
+                0.00    0.00   15552/24192       Util::PtrCont<AMod::Arrow>::resize(int) [32]
+[72]     0.0    0.00    0.00   24192         std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> >::erase(__gnu_cxx::__normal_iterator<AMod::Arrow**, std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> > >, __gnu_cxx::__normal_iterator<AMod::Arrow**, std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> > >) [72]
+-----------------------------------------------
+                0.00    0.00    6912/19008       AMod::MolTopo::setupAxes() [56]
+                0.00    0.00   12096/19008       Util::PtrCont<AMod::Arrow>::resize(int) [32]
+[73]     0.0    0.00    0.00   19008         void std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> >::_M_range_insert<__gnu_cxx::__normal_iterator<AMod::Arrow**, std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> > > >(__gnu_cxx::__normal_iterator<AMod::Arrow**, std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> > >, __gnu_cxx::__normal_iterator<AMod::Arrow**, std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> > >, __gnu_cxx::__normal_iterator<AMod::Arrow**, std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> > >, std::forward_iterator_tag) [73]
+-----------------------------------------------
+                0.00    0.00   12480/12480       AMod::MolTopo::setupAxes() [56]
+[74]     0.0    0.00    0.00   12480         AMod::Arrow::~Arrow() [74]
+-----------------------------------------------
+                0.00    0.00    2420/8640        void Util::purge<std::vector<AMod::Atom*, std::allocator<AMod::Atom*> > >(std::vector<AMod::Atom*, std::allocator<AMod::Atom*> >&) [118]
+                0.00    0.00    6220/8640        Util::PtrCont<AMod::Atom>::resize(int) [33]
+[75]     0.0    0.00    0.00    8640         AMod::Atom::~Atom() [75]
+                0.00    0.00    8640/8640        Util::PtrCont<AMod::Arrow>::cleanup() [76]
+-----------------------------------------------
+                0.00    0.00    8640/8640        AMod::Atom::~Atom() [75]
+[76]     0.0    0.00    0.00    8640         Util::PtrCont<AMod::Arrow>::cleanup() [76]
+-----------------------------------------------
+                0.00    0.00    7104/7104        AMod::MolTopo::setupAxes() [56]
+[77]     0.0    0.00    0.00    7104         AMod::Arrow::Arrow() [77]
+-----------------------------------------------
+                0.00    0.00    7104/7104        AMod::MolTopo::setupAxes() [56]
+[78]     0.0    0.00    0.00    7104         AMod::Arrow::operator=(AMod::Arrow const&) [78]
+-----------------------------------------------
+                0.00    0.00       7/2461        std::_Rb_tree<AMod::MolTopo::Cell, std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > >, std::_Select1st<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > >, std::less<AMod::MolTopo::Cell>, std::allocator<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > > >::_M_insert_unique(std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > const&) [116]
+                0.00    0.00    2454/2461        std::_Rb_tree<AMod::MolTopo::Cell, std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > >, std::_Select1st<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > >, std::less<AMod::MolTopo::Cell>, std::allocator<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > > >::_M_insert_unique_(std::_Rb_tree_const_iterator<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > >, std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > const&) [80]
+[79]     0.0    0.00    0.00    2461         std::_Rb_tree<AMod::MolTopo::Cell, std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > >, std::_Select1st<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > >, std::less<AMod::MolTopo::Cell>, std::allocator<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > > >::_M_insert_(std::_Rb_tree_node_base const*, std::_Rb_tree_node_base const*, std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > const&) [79]
+-----------------------------------------------
+                0.00    0.00    2461/2461        AMod::MolTopo::setupCells(double) [54]
+[80]     0.0    0.00    0.00    2461         std::_Rb_tree<AMod::MolTopo::Cell, std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > >, std::_Select1st<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > >, std::less<AMod::MolTopo::Cell>, std::allocator<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > > >::_M_insert_unique_(std::_Rb_tree_const_iterator<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > >, std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > const&) [80]
+                0.00    0.00    2454/2461        std::_Rb_tree<AMod::MolTopo::Cell, std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > >, std::_Select1st<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > >, std::less<AMod::MolTopo::Cell>, std::allocator<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > > >::_M_insert_(std::_Rb_tree_node_base const*, std::_Rb_tree_node_base const*, std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > const&) [79]
+                0.00    0.00       7/7           std::_Rb_tree<AMod::MolTopo::Cell, std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > >, std::_Select1st<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > >, std::less<AMod::MolTopo::Cell>, std::allocator<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > > >::_M_insert_unique(std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > const&) [116]
+-----------------------------------------------
+                0.00    0.00    1731/1731        readxyz(std::istream&, AMod::Molecule&) [22]
+[81]     0.0    0.00    0.00    1731         AMod::Atom::Data::Data(int, double, double, double) [81]
+-----------------------------------------------
+                0.00    0.00    1731/1731        Util::PtrCont<AMod::Atom::Data>::resize(int) [120]
+[82]     0.0    0.00    0.00    1731         AMod::Atom::Data::Data() [82]
+-----------------------------------------------
+                0.00    0.00    1731/1731        readxyz(std::istream&, AMod::Molecule&) [22]
+[83]     0.0    0.00    0.00    1731         AMod::Atom::Data::operator=(AMod::Atom::Data const&) [83]
+-----------------------------------------------
+                0.00    0.00       2/203         LCBOPII::Energy::reset() [134]
+                0.00    0.00     201/203         LCBOPII::Energy::computeE(AMod::MolTopo const&, AMod::MolTopo const&, AMod::MolTopo const&) [3]
+[84]     0.0    0.00    0.00     203         Util::PtrCont<LCBOPII::AtomDatumMR>::resize(int) [84]
+                0.00    0.00     203/203         std::vector<LCBOPII::AtomDatumMR*, std::allocator<LCBOPII::AtomDatumMR*> >::erase(__gnu_cxx::__normal_iterator<LCBOPII::AtomDatumMR**, std::vector<LCBOPII::AtomDatumMR*, std::allocator<LCBOPII::AtomDatumMR*> > >, __gnu_cxx::__normal_iterator<LCBOPII::AtomDatumMR**, std::vector<LCBOPII::AtomDatumMR*, std::allocator<LCBOPII::AtomDatumMR*> > >) [87]
+                0.00    0.00     202/202         void std::vector<LCBOPII::AtomDatumMR*, std::allocator<LCBOPII::AtomDatumMR*> >::_M_range_insert<__gnu_cxx::__normal_iterator<LCBOPII::AtomDatumMR**, std::vector<LCBOPII::AtomDatumMR*, std::allocator<LCBOPII::AtomDatumMR*> > > >(__gnu_cxx::__normal_iterator<LCBOPII::AtomDatumMR**, std::vector<LCBOPII::AtomDatumMR*, std::allocator<LCBOPII::AtomDatumMR*> > >, __gnu_cxx::__normal_iterator<LCBOPII::AtomDatumMR**, std::vector<LCBOPII::AtomDatumMR*, std::allocator<LCBOPII::AtomDatumMR*> > >, __gnu_cxx::__normal_iterator<LCBOPII::AtomDatumMR**, std::vector<LCBOPII::AtomDatumMR*, std::allocator<LCBOPII::AtomDatumMR*> > >, std::forward_iterator_tag) [90]
+                0.00    0.00       1/1           std::vector<LCBOPII::AtomDatumMR*, std::allocator<LCBOPII::AtomDatumMR*> >::_M_fill_insert(__gnu_cxx::__normal_iterator<LCBOPII::AtomDatumMR**, std::vector<LCBOPII::AtomDatumMR*, std::allocator<LCBOPII::AtomDatumMR*> > >, unsigned int, LCBOPII::AtomDatumMR* const&) [179]
+-----------------------------------------------
+                0.00    0.00       2/203         LCBOPII::Energy::reset() [134]
+                0.00    0.00     201/203         LCBOPII::Energy::computeE(AMod::MolTopo const&, AMod::MolTopo const&, AMod::MolTopo const&) [3]
+[85]     0.0    0.00    0.00     203         Util::PtrCont<LCBOPII::BondDatumLR>::resize(int) [85]
+                0.00    0.00     203/203         std::vector<LCBOPII::BondDatumLR*, std::allocator<LCBOPII::BondDatumLR*> >::erase(__gnu_cxx::__normal_iterator<LCBOPII::BondDatumLR**, std::vector<LCBOPII::BondDatumLR*, std::allocator<LCBOPII::BondDatumLR*> > >, __gnu_cxx::__normal_iterator<LCBOPII::BondDatumLR**, std::vector<LCBOPII::BondDatumLR*, std::allocator<LCBOPII::BondDatumLR*> > >) [88]
+                0.00    0.00     202/202         void std::vector<LCBOPII::BondDatumLR*, std::allocator<LCBOPII::BondDatumLR*> >::_M_range_insert<__gnu_cxx::__normal_iterator<LCBOPII::BondDatumLR**, std::vector<LCBOPII::BondDatumLR*, std::allocator<LCBOPII::BondDatumLR*> > > >(__gnu_cxx::__normal_iterator<LCBOPII::BondDatumLR**, std::vector<LCBOPII::BondDatumLR*, std::allocator<LCBOPII::BondDatumLR*> > >, __gnu_cxx::__normal_iterator<LCBOPII::BondDatumLR**, std::vector<LCBOPII::BondDatumLR*, std::allocator<LCBOPII::BondDatumLR*> > >, __gnu_cxx::__normal_iterator<LCBOPII::BondDatumLR**, std::vector<LCBOPII::BondDatumLR*, std::allocator<LCBOPII::BondDatumLR*> > >, std::forward_iterator_tag) [91]
+                0.00    0.00       1/1           std::vector<LCBOPII::BondDatumLR*, std::allocator<LCBOPII::BondDatumLR*> >::_M_fill_insert(__gnu_cxx::__normal_iterator<LCBOPII::BondDatumLR**, std::vector<LCBOPII::BondDatumLR*, std::allocator<LCBOPII::BondDatumLR*> > >, unsigned int, LCBOPII::BondDatumLR* const&) [180]
+-----------------------------------------------
+                0.00    0.00       2/203         LCBOPII::Energy::reset() [134]
+                0.00    0.00     201/203         LCBOPII::Energy::computeE(AMod::MolTopo const&, AMod::MolTopo const&, AMod::MolTopo const&) [3]
+[86]     0.0    0.00    0.00     203         Util::PtrCont<LCBOPII::BondDatumSR>::resize(int) [86]
+                0.00    0.00     203/203         std::vector<LCBOPII::BondDatumSR*, std::allocator<LCBOPII::BondDatumSR*> >::erase(__gnu_cxx::__normal_iterator<LCBOPII::BondDatumSR**, std::vector<LCBOPII::BondDatumSR*, std::allocator<LCBOPII::BondDatumSR*> > >, __gnu_cxx::__normal_iterator<LCBOPII::BondDatumSR**, std::vector<LCBOPII::BondDatumSR*, std::allocator<LCBOPII::BondDatumSR*> > >) [89]
+                0.00    0.00     202/202         void std::vector<LCBOPII::BondDatumSR*, std::allocator<LCBOPII::BondDatumSR*> >::_M_range_insert<__gnu_cxx::__normal_iterator<LCBOPII::BondDatumSR**, std::vector<LCBOPII::BondDatumSR*, std::allocator<LCBOPII::BondDatumSR*> > > >(__gnu_cxx::__normal_iterator<LCBOPII::BondDatumSR**, std::vector<LCBOPII::BondDatumSR*, std::allocator<LCBOPII::BondDatumSR*> > >, __gnu_cxx::__normal_iterator<LCBOPII::BondDatumSR**, std::vector<LCBOPII::BondDatumSR*, std::allocator<LCBOPII::BondDatumSR*> > >, __gnu_cxx::__normal_iterator<LCBOPII::BondDatumSR**, std::vector<LCBOPII::BondDatumSR*, std::allocator<LCBOPII::BondDatumSR*> > >, std::forward_iterator_tag) [92]
+                0.00    0.00       1/1           std::vector<LCBOPII::BondDatumSR*, std::allocator<LCBOPII::BondDatumSR*> >::_M_fill_insert(__gnu_cxx::__normal_iterator<LCBOPII::BondDatumSR**, std::vector<LCBOPII::BondDatumSR*, std::allocator<LCBOPII::BondDatumSR*> > >, unsigned int, LCBOPII::BondDatumSR* const&) [181]
+-----------------------------------------------
+                0.00    0.00     203/203         Util::PtrCont<LCBOPII::AtomDatumMR>::resize(int) [84]
+[87]     0.0    0.00    0.00     203         std::vector<LCBOPII::AtomDatumMR*, std::allocator<LCBOPII::AtomDatumMR*> >::erase(__gnu_cxx::__normal_iterator<LCBOPII::AtomDatumMR**, std::vector<LCBOPII::AtomDatumMR*, std::allocator<LCBOPII::AtomDatumMR*> > >, __gnu_cxx::__normal_iterator<LCBOPII::AtomDatumMR**, std::vector<LCBOPII::AtomDatumMR*, std::allocator<LCBOPII::AtomDatumMR*> > >) [87]
+-----------------------------------------------
+                0.00    0.00     203/203         Util::PtrCont<LCBOPII::BondDatumLR>::resize(int) [85]
+[88]     0.0    0.00    0.00     203         std::vector<LCBOPII::BondDatumLR*, std::allocator<LCBOPII::BondDatumLR*> >::erase(__gnu_cxx::__normal_iterator<LCBOPII::BondDatumLR**, std::vector<LCBOPII::BondDatumLR*, std::allocator<LCBOPII::BondDatumLR*> > >, __gnu_cxx::__normal_iterator<LCBOPII::BondDatumLR**, std::vector<LCBOPII::BondDatumLR*, std::allocator<LCBOPII::BondDatumLR*> > >) [88]
+-----------------------------------------------
+                0.00    0.00     203/203         Util::PtrCont<LCBOPII::BondDatumSR>::resize(int) [86]
+[89]     0.0    0.00    0.00     203         std::vector<LCBOPII::BondDatumSR*, std::allocator<LCBOPII::BondDatumSR*> >::erase(__gnu_cxx::__normal_iterator<LCBOPII::BondDatumSR**, std::vector<LCBOPII::BondDatumSR*, std::allocator<LCBOPII::BondDatumSR*> > >, __gnu_cxx::__normal_iterator<LCBOPII::BondDatumSR**, std::vector<LCBOPII::BondDatumSR*, std::allocator<LCBOPII::BondDatumSR*> > >) [89]
+-----------------------------------------------
+                0.00    0.00     202/202         Util::PtrCont<LCBOPII::AtomDatumMR>::resize(int) [84]
+[90]     0.0    0.00    0.00     202         void std::vector<LCBOPII::AtomDatumMR*, std::allocator<LCBOPII::AtomDatumMR*> >::_M_range_insert<__gnu_cxx::__normal_iterator<LCBOPII::AtomDatumMR**, std::vector<LCBOPII::AtomDatumMR*, std::allocator<LCBOPII::AtomDatumMR*> > > >(__gnu_cxx::__normal_iterator<LCBOPII::AtomDatumMR**, std::vector<LCBOPII::AtomDatumMR*, std::allocator<LCBOPII::AtomDatumMR*> > >, __gnu_cxx::__normal_iterator<LCBOPII::AtomDatumMR**, std::vector<LCBOPII::AtomDatumMR*, std::allocator<LCBOPII::AtomDatumMR*> > >, __gnu_cxx::__normal_iterator<LCBOPII::AtomDatumMR**, std::vector<LCBOPII::AtomDatumMR*, std::allocator<LCBOPII::AtomDatumMR*> > >, std::forward_iterator_tag) [90]
+-----------------------------------------------
+                0.00    0.00     202/202         Util::PtrCont<LCBOPII::BondDatumLR>::resize(int) [85]
+[91]     0.0    0.00    0.00     202         void std::vector<LCBOPII::BondDatumLR*, std::allocator<LCBOPII::BondDatumLR*> >::_M_range_insert<__gnu_cxx::__normal_iterator<LCBOPII::BondDatumLR**, std::vector<LCBOPII::BondDatumLR*, std::allocator<LCBOPII::BondDatumLR*> > > >(__gnu_cxx::__normal_iterator<LCBOPII::BondDatumLR**, std::vector<LCBOPII::BondDatumLR*, std::allocator<LCBOPII::BondDatumLR*> > >, __gnu_cxx::__normal_iterator<LCBOPII::BondDatumLR**, std::vector<LCBOPII::BondDatumLR*, std::allocator<LCBOPII::BondDatumLR*> > >, __gnu_cxx::__normal_iterator<LCBOPII::BondDatumLR**, std::vector<LCBOPII::BondDatumLR*, std::allocator<LCBOPII::BondDatumLR*> > >, std::forward_iterator_tag) [91]
+-----------------------------------------------
+                0.00    0.00     202/202         Util::PtrCont<LCBOPII::BondDatumSR>::resize(int) [86]
+[92]     0.0    0.00    0.00     202         void std::vector<LCBOPII::BondDatumSR*, std::allocator<LCBOPII::BondDatumSR*> >::_M_range_insert<__gnu_cxx::__normal_iterator<LCBOPII::BondDatumSR**, std::vector<LCBOPII::BondDatumSR*, std::allocator<LCBOPII::BondDatumSR*> > > >(__gnu_cxx::__normal_iterator<LCBOPII::BondDatumSR**, std::vector<LCBOPII::BondDatumSR*, std::allocator<LCBOPII::BondDatumSR*> > >, __gnu_cxx::__normal_iterator<LCBOPII::BondDatumSR**, std::vector<LCBOPII::BondDatumSR*, std::allocator<LCBOPII::BondDatumSR*> > >, __gnu_cxx::__normal_iterator<LCBOPII::BondDatumSR**, std::vector<LCBOPII::BondDatumSR*, std::allocator<LCBOPII::BondDatumSR*> > >, std::forward_iterator_tag) [92]
+-----------------------------------------------
+                0.00    0.00      94/94          std::vector<AMod::Bond*, std::allocator<AMod::Bond*> >::_M_insert_aux(__gnu_cxx::__normal_iterator<AMod::Bond**, std::vector<AMod::Bond*, std::allocator<AMod::Bond*> > >, AMod::Bond* const&) [95]
+[93]     0.0    0.00    0.00      94         AMod::Bond** std::__copy_move_a<false, AMod::Bond**, AMod::Bond**>(AMod::Bond**, AMod::Bond**, AMod::Bond**) [93]
+-----------------------------------------------
+                                  21             AMod::MolTopo::bondok(int) const [94]
+                0.00    0.00      63/63          AMod::MolTopo::setupCells(double) [54]
+[94]     0.0    0.00    0.00      63+21      AMod::MolTopo::bondok(int) const [94]
+                                  21             AMod::MolTopo::bondok(int) const [94]
+-----------------------------------------------
+                0.00    0.00      47/47          Util::PtrCont<AMod::Bond>::push_back() [46]
+[95]     0.0    0.00    0.00      47         std::vector<AMod::Bond*, std::allocator<AMod::Bond*> >::_M_insert_aux(__gnu_cxx::__normal_iterator<AMod::Bond**, std::vector<AMod::Bond*, std::allocator<AMod::Bond*> > >, AMod::Bond* const&) [95]
+                0.00    0.00      94/94          AMod::Bond** std::__copy_move_a<false, AMod::Bond**, AMod::Bond**>(AMod::Bond**, AMod::Bond**, AMod::Bond**) [93]
+-----------------------------------------------
+                0.00    0.00       4/39          AMod::MolTopo::setupTrans() [121]
+                0.00    0.00       6/39          AMod::MolTopo::MolTopo() [45]
+                0.00    0.00       7/39          AMod::MolTopo::setupCells(double) [54]
+                0.00    0.00      22/39          AMod::MolTopo::clear() [34]
+[96]     0.0    0.00    0.00      39         AMod::Trans::reset() [96]
+-----------------------------------------------
+                0.00    0.00       1/37          LCBOPII::Energy::bondRangeLR() [173]
+                0.00    0.00       1/37          LCBOPII::Energy::bondRangeMR() [174]
+                0.00    0.00       2/37          LCBOPII::Energy::bondRangeSR() [132]
+                0.00    0.00      33/37          AMod::MolTopo::reset() [110]
+[97]     0.0    0.00    0.00      37         AMod::BondRange::insert(int, int, double, double) [97]
+-----------------------------------------------
+                0.00    0.00      14/36          AMod::MolTopo::setupCells(double) [54]
+                0.00    0.00      22/36          AMod::Trans::init3(double const*, double const*, double const*) [109]
+[98]     0.0    0.00    0.00      36         NR::Vector<double>::~Vector() [98]
+-----------------------------------------------
+                0.00    0.00       7/25          AMod::MolTopo::setupCells(double) [54]
+                0.00    0.00      18/25          AMod::MolTopo::clearCells() [104]
+[99]     0.0    0.00    0.00      25         Util::PtrCont<AMod::MolTopo::A2CLink>::resize(int) [99]
+                0.00    0.00      24/24          std::vector<AMod::MolTopo::A2CLink*, std::allocator<AMod::MolTopo::A2CLink*> >::erase(__gnu_cxx::__normal_iterator<AMod::MolTopo::A2CLink**, std::vector<AMod::MolTopo::A2CLink*, std::allocator<AMod::MolTopo::A2CLink*> > >, __gnu_cxx::__normal_iterator<AMod::MolTopo::A2CLink**, std::vector<AMod::MolTopo::A2CLink*, std::allocator<AMod::MolTopo::A2CLink*> > >) [100]
+                0.00    0.00      22/22          void std::vector<AMod::MolTopo::A2CLink*, std::allocator<AMod::MolTopo::A2CLink*> >::_M_range_insert<__gnu_cxx::__normal_iterator<AMod::MolTopo::A2CLink**, std::vector<AMod::MolTopo::A2CLink*, std::allocator<AMod::MolTopo::A2CLink*> > > >(__gnu_cxx::__normal_iterator<AMod::MolTopo::A2CLink**, std::vector<AMod::MolTopo::A2CLink*, std::allocator<AMod::MolTopo::A2CLink*> > >, __gnu_cxx::__normal_iterator<AMod::MolTopo::A2CLink**, std::vector<AMod::MolTopo::A2CLink*, std::allocator<AMod::MolTopo::A2CLink*> > >, __gnu_cxx::__normal_iterator<AMod::MolTopo::A2CLink**, std::vector<AMod::MolTopo::A2CLink*, std::allocator<AMod::MolTopo::A2CLink*> > >, std::forward_iterator_tag) [101]
+                0.00    0.00       7/7           std::vector<AMod::MolTopo::A2CLink*, std::allocator<AMod::MolTopo::A2CLink*> >::_M_fill_insert(__gnu_cxx::__normal_iterator<AMod::MolTopo::A2CLink**, std::vector<AMod::MolTopo::A2CLink*, std::allocator<AMod::MolTopo::A2CLink*> > >, unsigned int, AMod::MolTopo::A2CLink* const&) [115]
+-----------------------------------------------
+                0.00    0.00      24/24          Util::PtrCont<AMod::MolTopo::A2CLink>::resize(int) [99]
+[100]    0.0    0.00    0.00      24         std::vector<AMod::MolTopo::A2CLink*, std::allocator<AMod::MolTopo::A2CLink*> >::erase(__gnu_cxx::__normal_iterator<AMod::MolTopo::A2CLink**, std::vector<AMod::MolTopo::A2CLink*, std::allocator<AMod::MolTopo::A2CLink*> > >, __gnu_cxx::__normal_iterator<AMod::MolTopo::A2CLink**, std::vector<AMod::MolTopo::A2CLink*, std::allocator<AMod::MolTopo::A2CLink*> > >) [100]
+-----------------------------------------------
+                0.00    0.00      22/22          Util::PtrCont<AMod::MolTopo::A2CLink>::resize(int) [99]
+[101]    0.0    0.00    0.00      22         void std::vector<AMod::MolTopo::A2CLink*, std::allocator<AMod::MolTopo::A2CLink*> >::_M_range_insert<__gnu_cxx::__normal_iterator<AMod::MolTopo::A2CLink**, std::vector<AMod::MolTopo::A2CLink*, std::allocator<AMod::MolTopo::A2CLink*> > > >(__gnu_cxx::__normal_iterator<AMod::MolTopo::A2CLink**, std::vector<AMod::MolTopo::A2CLink*, std::allocator<AMod::MolTopo::A2CLink*> > >, __gnu_cxx::__normal_iterator<AMod::MolTopo::A2CLink**, std::vector<AMod::MolTopo::A2CLink*, std::allocator<AMod::MolTopo::A2CLink*> > >, __gnu_cxx::__normal_iterator<AMod::MolTopo::A2CLink**, std::vector<AMod::MolTopo::A2CLink*, std::allocator<AMod::MolTopo::A2CLink*> > >, std::forward_iterator_tag) [101]
+-----------------------------------------------
+                                2461             std::_Rb_tree<AMod::MolTopo::Cell, std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > >, std::_Select1st<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > >, std::less<AMod::MolTopo::Cell>, std::allocator<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > > >::_M_erase(std::_Rb_tree_node<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > >*) [102]
+                0.00    0.00       3/21          AMod::MolTopo::~MolTopo() [125]
+                0.00    0.00      18/21          AMod::MolTopo::clearCells() [104]
+[102]    0.0    0.00    0.00      21+2461    std::_Rb_tree<AMod::MolTopo::Cell, std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > >, std::_Select1st<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > >, std::less<AMod::MolTopo::Cell>, std::allocator<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > > >::_M_erase(std::_Rb_tree_node<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > >*) [102]
+                                2461             std::_Rb_tree<AMod::MolTopo::Cell, std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > >, std::_Select1st<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > >, std::less<AMod::MolTopo::Cell>, std::allocator<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > > >::_M_erase(std::_Rb_tree_node<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > >*) [102]
+-----------------------------------------------
+                0.00    0.00       7/18          AMod::MolTopo::setupCells(double) [54]
+                0.00    0.00      11/18          AMod::Trans::init3(double const*, double const*, double const*) [109]
+[103]    0.0    0.00    0.00      18         NR::Matrix<double>::~Matrix() [103]
+-----------------------------------------------
+                0.00    0.00       7/18          AMod::MolTopo::setupCells(double) [54]
+                0.00    0.00      11/18          AMod::MolTopo::clear() [34]
+[104]    0.0    0.00    0.00      18         AMod::MolTopo::clearCells() [104]
+                0.00    0.00      18/21          std::_Rb_tree<AMod::MolTopo::Cell, std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > >, std::_Select1st<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > >, std::less<AMod::MolTopo::Cell>, std::allocator<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > > >::_M_erase(std::_Rb_tree_node<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > >*) [102]
+                0.00    0.00      18/25          Util::PtrCont<AMod::MolTopo::A2CLink>::resize(int) [99]
+-----------------------------------------------
+                0.00    0.00       1/18          LCBOPII::Energy::bondRangeLR() [173]
+                0.00    0.00       1/18          LCBOPII::Energy::bondRangeMR() [174]
+                0.00    0.00       2/18          LCBOPII::Energy::bondRangeSR() [132]
+                0.00    0.00       3/18          AMod::MolTopo::MolTopo() [45]
+                0.00    0.00      11/18          AMod::MolTopo::reset() [110]
+[105]    0.0    0.00    0.00      18         AMod::BondRange::reset() [105]
+-----------------------------------------------
+                0.00    0.00      18/18          Util::PtrCont<AMod::Bond>::resize(int) [47]
+[106]    0.0    0.00    0.00      18         std::vector<AMod::Bond*, std::allocator<AMod::Bond*> >::erase(__gnu_cxx::__normal_iterator<AMod::Bond**, std::vector<AMod::Bond*, std::allocator<AMod::Bond*> > >, __gnu_cxx::__normal_iterator<AMod::Bond**, std::vector<AMod::Bond*, std::allocator<AMod::Bond*> > >) [106]
+-----------------------------------------------
+                0.00    0.00      15/15          Util::PtrCont<AMod::Bond>::resize(int) [47]
+[107]    0.0    0.00    0.00      15         void std::vector<AMod::Bond*, std::allocator<AMod::Bond*> >::_M_range_insert<__gnu_cxx::__normal_iterator<AMod::Bond**, std::vector<AMod::Bond*, std::allocator<AMod::Bond*> > > >(__gnu_cxx::__normal_iterator<AMod::Bond**, std::vector<AMod::Bond*, std::allocator<AMod::Bond*> > >, __gnu_cxx::__normal_iterator<AMod::Bond**, std::vector<AMod::Bond*, std::allocator<AMod::Bond*> > >, __gnu_cxx::__normal_iterator<AMod::Bond**, std::vector<AMod::Bond*, std::allocator<AMod::Bond*> > >, std::forward_iterator_tag) [107]
+-----------------------------------------------
+                0.00    0.00      13/13          Util::PtrCont<AMod::Atom>::resize(int) [33]
+[108]    0.0    0.00    0.00      13         std::vector<AMod::Atom*, std::allocator<AMod::Atom*> >::erase(__gnu_cxx::__normal_iterator<AMod::Atom**, std::vector<AMod::Atom*, std::allocator<AMod::Atom*> > >, __gnu_cxx::__normal_iterator<AMod::Atom**, std::vector<AMod::Atom*, std::allocator<AMod::Atom*> > >) [108]
+-----------------------------------------------
+                0.00    0.00       4/11          AMod::MolTopo::setupTrans() [121]
+                0.00    0.00       7/11          AMod::MolTopo::setupCells(double) [54]
+[109]    0.0    0.00    0.00      11         AMod::Trans::init3(double const*, double const*, double const*) [109]
+                0.00    0.00      22/36          NR::Vector<double>::~Vector() [98]
+                0.00    0.00      11/18          NR::Matrix<double>::~Matrix() [103]
+-----------------------------------------------
+                0.00    0.00       2/11          AMod::Molecule::reset() [49]
+                0.00    0.00       2/11          AMod::ForceLCBOPIIN::init() [15]
+                0.00    0.00       3/11          AMod::MolTopo::MolTopo() [45]
+                0.00    0.00       4/11          AMod::ForceLCBOPIIN::reset() [41]
+[110]    0.0    0.00    0.00      11         AMod::MolTopo::reset() [110]
+                0.00    0.00      33/37          AMod::BondRange::insert(int, int, double, double) [97]
+                0.00    0.00      11/18          AMod::BondRange::reset() [105]
+-----------------------------------------------
+                0.00    0.00      11/11          Util::PtrCont<AMod::Atom>::resize(int) [33]
+[111]    0.0    0.00    0.00      11         void std::vector<AMod::Atom*, std::allocator<AMod::Atom*> >::_M_range_insert<__gnu_cxx::__normal_iterator<AMod::Atom**, std::vector<AMod::Atom*, std::allocator<AMod::Atom*> > > >(__gnu_cxx::__normal_iterator<AMod::Atom**, std::vector<AMod::Atom*, std::allocator<AMod::Atom*> > >, __gnu_cxx::__normal_iterator<AMod::Atom**, std::vector<AMod::Atom*, std::allocator<AMod::Atom*> > >, __gnu_cxx::__normal_iterator<AMod::Atom**, std::vector<AMod::Atom*, std::allocator<AMod::Atom*> > >, std::forward_iterator_tag) [111]
+-----------------------------------------------
+                0.00    0.00       1/7           LCBOPII::Energy::bondRangeLR() [173]
+                0.00    0.00       1/7           LCBOPII::Energy::bondRangeMR() [174]
+                0.00    0.00       2/7           LCBOPII::Energy::bondRangeSR() [132]
+                0.00    0.00       3/7           AMod::MolTopo::MolTopo() [45]
+[112]    0.0    0.00    0.00       7         AMod::BondRange::BondRange() [112]
+-----------------------------------------------
+                0.00    0.00       1/7           readxyz(std::istream&, AMod::Molecule&) [22]
+                0.00    0.00       3/7           AMod::MolTopo::~MolTopo() [125]
+                0.00    0.00       3/7           AMod::ForceLCBOPIIN::init() [15]
+[113]    0.0    0.00    0.00       7         AMod::BondRange::~BondRange() [113]
+-----------------------------------------------
+                0.00    0.00       7/7           AMod::MolTopo::setupCells(double) [54]
+[114]    0.0    0.00    0.00       7         void Util::build_axes<Util::Array2D<double, 3, 3> >(int, Util::Array2D<double, 3, 3>&) [114]
+-----------------------------------------------
+                0.00    0.00       7/7           Util::PtrCont<AMod::MolTopo::A2CLink>::resize(int) [99]
+[115]    0.0    0.00    0.00       7         std::vector<AMod::MolTopo::A2CLink*, std::allocator<AMod::MolTopo::A2CLink*> >::_M_fill_insert(__gnu_cxx::__normal_iterator<AMod::MolTopo::A2CLink**, std::vector<AMod::MolTopo::A2CLink*, std::allocator<AMod::MolTopo::A2CLink*> > >, unsigned int, AMod::MolTopo::A2CLink* const&) [115]
+-----------------------------------------------
+                0.00    0.00       7/7           std::_Rb_tree<AMod::MolTopo::Cell, std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > >, std::_Select1st<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > >, std::less<AMod::MolTopo::Cell>, std::allocator<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > > >::_M_insert_unique_(std::_Rb_tree_const_iterator<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > >, std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > const&) [80]
+[116]    0.0    0.00    0.00       7         std::_Rb_tree<AMod::MolTopo::Cell, std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > >, std::_Select1st<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > >, std::less<AMod::MolTopo::Cell>, std::allocator<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > > >::_M_insert_unique(std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > const&) [116]
+                0.00    0.00       7/2461        std::_Rb_tree<AMod::MolTopo::Cell, std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > >, std::_Select1st<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > >, std::less<AMod::MolTopo::Cell>, std::allocator<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > > >::_M_insert_(std::_Rb_tree_node_base const*, std::_Rb_tree_node_base const*, std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > const&) [79]
+-----------------------------------------------
+                0.00    0.00       6/6           AMod::MolTopo::MolTopo() [45]
+[117]    0.0    0.00    0.00       6         AMod::Trans::Trans() [117]
+-----------------------------------------------
+                0.00    0.00       6/6           Util::PtrCont<AMod::Atom>::cleanup() [126]
+[118]    0.0    0.00    0.00       6         void Util::purge<std::vector<AMod::Atom*, std::allocator<AMod::Atom*> > >(std::vector<AMod::Atom*, std::allocator<AMod::Atom*> >&) [118]
+                0.00    0.00    2420/8640        AMod::Atom::~Atom() [75]
+-----------------------------------------------
+                0.00    0.00       6/6           Util::PtrCont<AMod::Bond>::cleanup() [127]
+[119]    0.0    0.00    0.00       6         void Util::purge<std::vector<AMod::Bond*, std::allocator<AMod::Bond*> > >(std::vector<AMod::Bond*, std::allocator<AMod::Bond*> >&) [119]
+                0.00    0.00   33683/311258      AMod::Bond::~Bond() [66]
+-----------------------------------------------
+                0.00    0.00       2/6           readxyz(std::istream&, AMod::Molecule&) [22]
+                0.00    0.00       4/6           AMod::Molecule::reset() [49]
+[120]    0.0    0.00    0.00       6         Util::PtrCont<AMod::Atom::Data>::resize(int) [120]
+                0.00    0.00    1731/1731        AMod::Atom::Data::Data() [82]
+                0.00    0.00       4/4           void std::vector<AMod::Atom::Data*, std::allocator<AMod::Atom::Data*> >::_M_range_insert<__gnu_cxx::__normal_iterator<AMod::Atom::Data**, std::vector<AMod::Atom::Data*, std::allocator<AMod::Atom::Data*> > > >(__gnu_cxx::__normal_iterator<AMod::Atom::Data**, std::vector<AMod::Atom::Data*, std::allocator<AMod::Atom::Data*> > >, __gnu_cxx::__normal_iterator<AMod::Atom::Data**, std::vector<AMod::Atom::Data*, std::allocator<AMod::Atom::Data*> > >, __gnu_cxx::__normal_iterator<AMod::Atom::Data**, std::vector<AMod::Atom::Data*, std::allocator<AMod::Atom::Data*> > >, std::forward_iterator_tag) [123]
+                0.00    0.00       4/4           std::vector<AMod::Atom::Data*, std::allocator<AMod::Atom::Data*> >::erase(__gnu_cxx::__normal_iterator<AMod::Atom::Data**, std::vector<AMod::Atom::Data*, std::allocator<AMod::Atom::Data*> > >, __gnu_cxx::__normal_iterator<AMod::Atom::Data**, std::vector<AMod::Atom::Data*, std::allocator<AMod::Atom::Data*> > >) [124]
+                0.00    0.00       2/2           std::vector<AMod::Atom::Data*, std::allocator<AMod::Atom::Data*> >::_M_fill_insert(__gnu_cxx::__normal_iterator<AMod::Atom::Data**, std::vector<AMod::Atom::Data*, std::allocator<AMod::Atom::Data*> > >, unsigned int, AMod::Atom::Data* const&) [135]
+-----------------------------------------------
+                0.00    0.00       4/4           AMod::MolTopo::setupAxes() [56]
+[121]    0.0    0.00    0.00       4         AMod::MolTopo::setupTrans() [121]
+                0.00    0.00       4/39          AMod::Trans::reset() [96]
+                0.00    0.00       4/11          AMod::Trans::init3(double const*, double const*, double const*) [109]
+-----------------------------------------------
+                0.00    0.00       1/4           readxyz(std::istream&, AMod::Molecule&) [22]
+                0.00    0.00       3/4           AMod::ForceLCBOPIIN::init() [15]
+[122]    0.0    0.00    0.00       4         AMod::BondRange::operator=(AMod::BondRange const&) [122]
+-----------------------------------------------
+                0.00    0.00       4/4           Util::PtrCont<AMod::Atom::Data>::resize(int) [120]
+[123]    0.0    0.00    0.00       4         void std::vector<AMod::Atom::Data*, std::allocator<AMod::Atom::Data*> >::_M_range_insert<__gnu_cxx::__normal_iterator<AMod::Atom::Data**, std::vector<AMod::Atom::Data*, std::allocator<AMod::Atom::Data*> > > >(__gnu_cxx::__normal_iterator<AMod::Atom::Data**, std::vector<AMod::Atom::Data*, std::allocator<AMod::Atom::Data*> > >, __gnu_cxx::__normal_iterator<AMod::Atom::Data**, std::vector<AMod::Atom::Data*, std::allocator<AMod::Atom::Data*> > >, __gnu_cxx::__normal_iterator<AMod::Atom::Data**, std::vector<AMod::Atom::Data*, std::allocator<AMod::Atom::Data*> > >, std::forward_iterator_tag) [123]
+-----------------------------------------------
+                0.00    0.00       4/4           Util::PtrCont<AMod::Atom::Data>::resize(int) [120]
+[124]    0.0    0.00    0.00       4         std::vector<AMod::Atom::Data*, std::allocator<AMod::Atom::Data*> >::erase(__gnu_cxx::__normal_iterator<AMod::Atom::Data**, std::vector<AMod::Atom::Data*, std::allocator<AMod::Atom::Data*> > >, __gnu_cxx::__normal_iterator<AMod::Atom::Data**, std::vector<AMod::Atom::Data*, std::allocator<AMod::Atom::Data*> > >) [124]
+-----------------------------------------------
+                0.00    0.00       1/3           main [1]
+                0.00    0.00       2/3           AMod::ForceLCBOPIIN::~ForceLCBOPIIN() [164]
+[125]    0.0    0.00    0.00       3         AMod::MolTopo::~MolTopo() [125]
+                0.00    0.00       3/3           Util::PtrCont<AMod::Bond>::cleanup() [127]
+                0.00    0.00       3/3           Util::PtrCont<AMod::Atom>::cleanup() [126]
+                0.00    0.00       3/3           Util::PtrCont<AMod::MolTopo::A2CLink>::cleanup() [128]
+                0.00    0.00       3/21          std::_Rb_tree<AMod::MolTopo::Cell, std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > >, std::_Select1st<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > >, std::less<AMod::MolTopo::Cell>, std::allocator<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > > >::_M_erase(std::_Rb_tree_node<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > >*) [102]
+                0.00    0.00       3/7           AMod::BondRange::~BondRange() [113]
+-----------------------------------------------
+                0.00    0.00       3/3           AMod::MolTopo::~MolTopo() [125]
+[126]    0.0    0.00    0.00       3         Util::PtrCont<AMod::Atom>::cleanup() [126]
+                0.00    0.00       6/6           void Util::purge<std::vector<AMod::Atom*, std::allocator<AMod::Atom*> > >(std::vector<AMod::Atom*, std::allocator<AMod::Atom*> >&) [118]
+-----------------------------------------------
+                0.00    0.00       3/3           AMod::MolTopo::~MolTopo() [125]
+[127]    0.0    0.00    0.00       3         Util::PtrCont<AMod::Bond>::cleanup() [127]
+                0.00    0.00       6/6           void Util::purge<std::vector<AMod::Bond*, std::allocator<AMod::Bond*> > >(std::vector<AMod::Bond*, std::allocator<AMod::Bond*> >&) [119]
+-----------------------------------------------
+                0.00    0.00       3/3           AMod::MolTopo::~MolTopo() [125]
+[128]    0.0    0.00    0.00       3         Util::PtrCont<AMod::MolTopo::A2CLink>::cleanup() [128]
+-----------------------------------------------
+                0.00    0.00       3/3           Util::PtrCont<AMod::Atom>::resize(int) [33]
+[129]    0.0    0.00    0.00       3         std::vector<AMod::Atom*, std::allocator<AMod::Atom*> >::_M_fill_insert(__gnu_cxx::__normal_iterator<AMod::Atom**, std::vector<AMod::Atom*, std::allocator<AMod::Atom*> > >, unsigned int, AMod::Atom* const&) [129]
+-----------------------------------------------
+                0.00    0.00       1/2           readxyz(std::istream&, AMod::Molecule&) [22]
+                0.00    0.00       1/2           AMod::Molecule::Molecule() [51]
+[130]    0.0    0.00    0.00       2         AMod::MolIO::reset() [130]
+-----------------------------------------------
+                0.00    0.00       2/2           main [1]
+[131]    0.0    0.00    0.00       2         Util::PtrCont<AMod::Atom::Data>::cleanup() [131]
+-----------------------------------------------
+                0.00    0.00       1/2           readxyz(std::istream&, AMod::Molecule&) [22]
+                0.00    0.00       1/2           AMod::ForceLCBOPIIN::init() [15]
+[132]    0.0    0.00    0.00       2         LCBOPII::Energy::bondRangeSR() [132]
+                0.00    0.00       2/18          AMod::BondRange::reset() [105]
+                0.00    0.00       2/7           AMod::BondRange::BondRange() [112]
+                0.00    0.00       2/37          AMod::BondRange::insert(int, int, double, double) [97]
+-----------------------------------------------
+                0.00    0.00       1/2           readxyz(std::istream&, AMod::Molecule&) [22]
+                0.00    0.00       1/2           AMod::ForceLCBOPIIN::init() [15]
+[133]    0.0    0.00    0.00       2         LCBOPII::Energy::cellLengthSR() [133]
+-----------------------------------------------
+                0.00    0.00       2/2           AMod::ForceLCBOPIIN::reset() [41]
+[134]    0.0    0.00    0.00       2         LCBOPII::Energy::reset() [134]
+                0.00    0.00       2/203         Util::PtrCont<LCBOPII::BondDatumSR>::resize(int) [86]
+                0.00    0.00       2/203         Util::PtrCont<LCBOPII::BondDatumLR>::resize(int) [85]
+                0.00    0.00       2/203         Util::PtrCont<LCBOPII::AtomDatumMR>::resize(int) [84]
+-----------------------------------------------
+                0.00    0.00       2/2           Util::PtrCont<AMod::Atom::Data>::resize(int) [120]
+[135]    0.0    0.00    0.00       2         std::vector<AMod::Atom::Data*, std::allocator<AMod::Atom::Data*> >::_M_fill_insert(__gnu_cxx::__normal_iterator<AMod::Atom::Data**, std::vector<AMod::Atom::Data*, std::allocator<AMod::Atom::Data*> > >, unsigned int, AMod::Atom::Data* const&) [135]
+-----------------------------------------------
+                0.00    0.00       1/1           __do_global_ctors_aux [617]
+[136]    0.0    0.00    0.00       1         global constructors keyed to AMod::KernelREBO::KernelREBO() [136]
+-----------------------------------------------
+                0.00    0.00       1/1           __do_global_ctors_aux [617]
+[137]    0.0    0.00    0.00       1         global constructors keyed to AMod::MolChecker::MolChecker() [137]
+-----------------------------------------------
+                0.00    0.00       1/1           __do_global_ctors_aux [617]
+[138]    0.0    0.00    0.00       1         global constructors keyed to AMod::MolFactory::MolFactory() [138]
+-----------------------------------------------
+                0.00    0.00       1/1           __do_global_ctors_aux [617]
+[139]    0.0    0.00    0.00       1         global constructors keyed to AMod::MolAdjuster::MolAdjuster() [139]
+-----------------------------------------------
+                0.00    0.00       1/1           __do_global_ctors_aux [617]
+[140]    0.0    0.00    0.00       1         global constructors keyed to AMod::KernelLCBOPIIN::KernelLCBOPIIN() [140]
+-----------------------------------------------
+                0.00    0.00       1/1           __do_global_ctors_aux [617]
+[141]    0.0    0.00    0.00       1         global constructors keyed to AMod::Box::TOP_LEFT [141]
+-----------------------------------------------
+                0.00    0.00       1/1           __do_global_ctors_aux [617]
+[142]    0.0    0.00    0.00       1         global constructors keyed to AMod::Bond::Bond() [142]
+-----------------------------------------------
+                0.00    0.00       1/1           __do_global_ctors_aux [617]
+[143]    0.0    0.00    0.00       1         global constructors keyed to AMod::MolI::MolI() [143]
+-----------------------------------------------
+                0.00    0.00       1/1           __do_global_ctors_aux [617]
+[144]    0.0    0.00    0.00       1         global constructors keyed to AMod::Trans::SAFE_COEF [144]
+-----------------------------------------------
+                0.00    0.00       1/1           __do_global_ctors_aux [617]
+[145]    0.0    0.00    0.00       1         global constructors keyed to AMod::MolAnal::DEFAULT_MAX_CHAIN_LENGTH [145]
+-----------------------------------------------
+                0.00    0.00       1/1           __do_global_ctors_aux [617]
+[146]    0.0    0.00    0.00       1         global constructors keyed to AMod::MolTopo::MolTopo() [146]
+-----------------------------------------------
+                0.00    0.00       1/1           __do_global_ctors_aux [617]
+[147]    0.0    0.00    0.00       1         global constructors keyed to AMod::Molecule::Molecule() [147]
+-----------------------------------------------
+                0.00    0.00       1/1           __do_global_ctors_aux [617]
+[148]    0.0    0.00    0.00       1         global constructors keyed to AMod::MolScaler::MolScaler() [148]
+-----------------------------------------------
+                0.00    0.00       1/1           __do_global_ctors_aux [617]
+[149]    0.0    0.00    0.00       1         global constructors keyed to REBO::Force::Force(REBO::Energy&) [149]
+-----------------------------------------------
+                0.00    0.00       1/1           __do_global_ctors_aux [617]
+[150]    0.0    0.00    0.00       1         global constructors keyed to REBO::Energy::Energy() [150]
+-----------------------------------------------
+                0.00    0.00       1/1           __do_global_ctors_aux [617]
+[151]    0.0    0.00    0.00       1         global constructors keyed to LCBOPII::Energy::fb(AMod::Arrow const&) [151]
+-----------------------------------------------
+                0.00    0.00       1/1           __do_global_ctors_aux [617]
+[152]    0.0    0.00    0.00       1         global constructors keyed to LCBOPII::Energy::fPreF(AMod::Arrow const&, std::vector<LCBOPII::Energy::FDatum, std::allocator<LCBOPII::Energy::FDatum> >&) [152]
+-----------------------------------------------
+                0.00    0.00       1/1           __do_global_ctors_aux [617]
+[153]    0.0    0.00    0.00       1         global constructors keyed to LCBOPII::Energy::fSVlr(AMod::Bond const&) [153]
+-----------------------------------------------
+                0.00    0.00       1/1           __do_global_ctors_aux [617]
+[154]    0.0    0.00    0.00       1         global constructors keyed to LCBOPII::Energy::fSVmr(AMod::Arrow const&, AMod::MolTopo const&) [154]
+-----------------------------------------------
+                0.00    0.00       1/1           __do_global_ctors_aux [617]
+[155]    0.0    0.00    0.00       1         global constructors keyed to LCBOPII::Energy::fSVsr(AMod::Bond const&) [155]
+-----------------------------------------------
+                0.00    0.00       1/1           __do_global_ctors_aux [617]
+[156]    0.0    0.00    0.00       1         global constructors keyed to LCBOPII::Energy::Energy() [156]
+-----------------------------------------------
+                0.00    0.00       1/1           __do_global_ctors_aux [617]
+[157]    0.0    0.00    0.00       1         global constructors keyed to tbtools::Qi(double) [157]
+-----------------------------------------------
+                0.00    0.00       1/1           __do_global_ctors_aux [617]
+[158]    0.0    0.00    0.00       1         global constructors keyed to tbtools::cross(double const*, double const*, double*) [158]
+-----------------------------------------------
+                0.00    0.00       1/1           __do_global_ctors_aux [617]
+[159]    0.0    0.00    0.00       1         global constructors keyed to tbtools::XDBGen(int, int, int) [159]
+-----------------------------------------------
+                0.00    0.00       1/1           __do_global_ctors_aux [617]
+[160]    0.0    0.00    0.00       1         global constructors keyed to tbtools::init_in2() [160]
+-----------------------------------------------
+                0.00    0.00       1/1           __do_global_ctors_aux [617]
+[161]    0.0    0.00    0.00       1         global constructors keyed to tbtools::init_in3() [161]
+-----------------------------------------------
+                0.00    0.00       1/1           __do_global_ctors_aux [617]
+[162]    0.0    0.00    0.00       1         global constructors keyed to main [162]
+-----------------------------------------------
+                0.00    0.00       1/1           AMod::Molecule::attach() [169]
+[163]    0.0    0.00    0.00       1         AMod::MolService<AMod::Molecule>::attach(AMod::Molecule&) [163]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[164]    0.0    0.00    0.00       1         AMod::ForceLCBOPIIN::~ForceLCBOPIIN() [164]
+                0.00    0.00       2/3           AMod::MolTopo::~MolTopo() [125]
+                0.00    0.00       1/1           LCBOPII::Energy::~Energy() [178]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[165]    0.0    0.00    0.00       1         AMod::KernelLCBOPIIN::KernelLCBOPIIN(AMod::Molecule&) [165]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[166]    0.0    0.00    0.00       1         AMod::KernelLCBOPIIN::~KernelLCBOPIIN() [166]
+-----------------------------------------------
+                0.00    0.00       1/1           AMod::Molecule::attach() [169]
+[167]    0.0    0.00    0.00       1         AMod::MolIO::attach(AMod::Molecule&) [167]
+-----------------------------------------------
+                0.00    0.00       1/1           AMod::Molecule::Molecule() [51]
+[168]    0.0    0.00    0.00       1         AMod::MolIO::MolIO() [168]
+-----------------------------------------------
+                0.00    0.00       1/1           AMod::Molecule::Molecule() [51]
+[169]    0.0    0.00    0.00       1         AMod::Molecule::attach() [169]
+                0.00    0.00       1/1           AMod::MolIO::attach(AMod::Molecule&) [167]
+                0.00    0.00       1/1           AMod::MolService<AMod::Molecule>::attach(AMod::Molecule&) [163]
+-----------------------------------------------
+                0.00    0.00       1/1           LCBOPII::Energy::~Energy() [178]
+[170]    0.0    0.00    0.00       1         Util::PtrCont<LCBOPII::AtomDatumMR>::cleanup() [170]
+-----------------------------------------------
+                0.00    0.00       1/1           LCBOPII::Energy::~Energy() [178]
+[171]    0.0    0.00    0.00       1         Util::PtrCont<LCBOPII::BondDatumLR>::cleanup() [171]
+-----------------------------------------------
+                0.00    0.00       1/1           LCBOPII::Energy::~Energy() [178]
+[172]    0.0    0.00    0.00       1         Util::PtrCont<LCBOPII::BondDatumSR>::cleanup() [172]
+-----------------------------------------------
+                0.00    0.00       1/1           AMod::ForceLCBOPIIN::init() [15]
+[173]    0.0    0.00    0.00       1         LCBOPII::Energy::bondRangeLR() [173]
+                0.00    0.00       1/18          AMod::BondRange::reset() [105]
+                0.00    0.00       1/7           AMod::BondRange::BondRange() [112]
+                0.00    0.00       1/37          AMod::BondRange::insert(int, int, double, double) [97]
+-----------------------------------------------
+                0.00    0.00       1/1           AMod::ForceLCBOPIIN::init() [15]
+[174]    0.0    0.00    0.00       1         LCBOPII::Energy::bondRangeMR() [174]
+                0.00    0.00       1/18          AMod::BondRange::reset() [105]
+                0.00    0.00       1/7           AMod::BondRange::BondRange() [112]
+                0.00    0.00       1/37          AMod::BondRange::insert(int, int, double, double) [97]
+-----------------------------------------------
+                0.00    0.00       1/1           AMod::ForceLCBOPIIN::init() [15]
+[175]    0.0    0.00    0.00       1         LCBOPII::Energy::cellLengthLR() [175]
+-----------------------------------------------
+                0.00    0.00       1/1           AMod::ForceLCBOPIIN::init() [15]
+[176]    0.0    0.00    0.00       1         LCBOPII::Energy::cellLengthMR() [176]
+-----------------------------------------------
+                0.00    0.00       1/1           AMod::ForceLCBOPIIN::ForceLCBOPIIN(AMod::Molecule&) [42]
+[177]    0.0    0.00    0.00       1         LCBOPII::Energy::Energy() [177]
+-----------------------------------------------
+                0.00    0.00       1/1           AMod::ForceLCBOPIIN::~ForceLCBOPIIN() [164]
+[178]    0.0    0.00    0.00       1         LCBOPII::Energy::~Energy() [178]
+                0.00    0.00       1/1           Util::PtrCont<LCBOPII::AtomDatumMR>::cleanup() [170]
+                0.00    0.00       1/1           Util::PtrCont<LCBOPII::BondDatumLR>::cleanup() [171]
+                0.00    0.00       1/1           Util::PtrCont<LCBOPII::BondDatumSR>::cleanup() [172]
+-----------------------------------------------
+                0.00    0.00       1/1           Util::PtrCont<LCBOPII::AtomDatumMR>::resize(int) [84]
+[179]    0.0    0.00    0.00       1         std::vector<LCBOPII::AtomDatumMR*, std::allocator<LCBOPII::AtomDatumMR*> >::_M_fill_insert(__gnu_cxx::__normal_iterator<LCBOPII::AtomDatumMR**, std::vector<LCBOPII::AtomDatumMR*, std::allocator<LCBOPII::AtomDatumMR*> > >, unsigned int, LCBOPII::AtomDatumMR* const&) [179]
+-----------------------------------------------
+                0.00    0.00       1/1           Util::PtrCont<LCBOPII::BondDatumLR>::resize(int) [85]
+[180]    0.0    0.00    0.00       1         std::vector<LCBOPII::BondDatumLR*, std::allocator<LCBOPII::BondDatumLR*> >::_M_fill_insert(__gnu_cxx::__normal_iterator<LCBOPII::BondDatumLR**, std::vector<LCBOPII::BondDatumLR*, std::allocator<LCBOPII::BondDatumLR*> > >, unsigned int, LCBOPII::BondDatumLR* const&) [180]
+-----------------------------------------------
+                0.00    0.00       1/1           Util::PtrCont<LCBOPII::BondDatumSR>::resize(int) [86]
+[181]    0.0    0.00    0.00       1         std::vector<LCBOPII::BondDatumSR*, std::allocator<LCBOPII::BondDatumSR*> >::_M_fill_insert(__gnu_cxx::__normal_iterator<LCBOPII::BondDatumSR**, std::vector<LCBOPII::BondDatumSR*, std::allocator<LCBOPII::BondDatumSR*> > >, unsigned int, LCBOPII::BondDatumSR* const&) [181]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+
+Index by function name
+
+ [136] global constructors keyed to AMod::KernelREBO::KernelREBO() [168] AMod::MolIO::MolIO() [176] LCBOPII::Energy::cellLengthMR()
+ [137] global constructors keyed to AMod::MolChecker::MolChecker() [109] AMod::Trans::init3(double const*, double const*, double const*) [133] LCBOPII::Energy::cellLengthSR()
+ [138] global constructors keyed to AMod::MolFactory::MolFactory() [96] AMod::Trans::reset() [12] LCBOPII::Energy::fb(AMod::Arrow const&)
+ [139] global constructors keyed to AMod::MolAdjuster::MolAdjuster() [117] AMod::Trans::Trans() [10] LCBOPII::Energy::fFAT(AMod::Bond const&)
+ [140] global constructors keyed to AMod::KernelLCBOPIIN::KernelLCBOPIIN() [104] AMod::MolTopo::clearCells() [17] LCBOPII::Energy::fPreF(AMod::Arrow const&, std::vector<LCBOPII::Energy::FDatum, std::allocator<LCBOPII::Energy::FDatum> >&)
+ [141] global constructors keyed to AMod::Box::TOP_LEFT [54] AMod::MolTopo::setupCells(double) [11] LCBOPII::Energy::fSVlr(AMod::Bond const&)
+ [142] global constructors keyed to AMod::Bond::Bond() [121] AMod::MolTopo::setupTrans() [6] LCBOPII::Energy::fSVmr(AMod::Arrow const&, AMod::MolTopo const&)
+ [143] global constructors keyed to AMod::MolI::MolI() [16] AMod::MolTopo::newHardBond(int, int) [8] LCBOPII::Energy::fSVsr(AMod::Bond const&)
+ [144] global constructors keyed to AMod::Trans::SAFE_COEF [52] AMod::MolTopo::clearConnection() [134] LCBOPII::Energy::reset()
+ [145] global constructors keyed to AMod::MolAnal::DEFAULT_MAX_CHAIN_LENGTH [13] AMod::MolTopo::updateConnection(AMod::MolTopoMode) [3] LCBOPII::Energy::computeE(AMod::MolTopo const&, AMod::MolTopo const&, AMod::MolTopo const&)
+ [146] global constructors keyed to AMod::MolTopo::MolTopo() [55] AMod::MolTopo::updateCellsMoveAtom(int) [177] LCBOPII::Energy::Energy()
+ [147] global constructors keyed to AMod::Molecule::Molecule() [14] AMod::MolTopo::updateHardConnection(int, bool) [178] LCBOPII::Energy::~Energy()
+ [148] global constructors keyed to AMod::MolScaler::MolScaler() [48] AMod::MolTopo::sync() [20] AMod::Trans::findImage3(double*, double const*, double) const
+ [149] global constructors keyed to REBO::Force::Force(REBO::Energy&) [34] AMod::MolTopo::clear() [27] AMod::Trans::proj(double const*, double*) const
+ [150] global constructors keyed to REBO::Energy::Energy() [110] AMod::MolTopo::reset() [25] AMod::Trans::findImage(double*, double const*, double) const
+ [151] global constructors keyed to LCBOPII::Energy::fb(AMod::Arrow const&) [57] AMod::MolTopo::update(AMod::MolTopoCase) [94] AMod::MolTopo::bondok(int) const
+ [152] global constructors keyed to LCBOPII::Energy::fPreF(AMod::Arrow const&, std::vector<LCBOPII::Energy::FDatum, std::allocator<LCBOPII::Energy::FDatum> >&) [56] AMod::MolTopo::setupAxes() [53] AMod::MolTopo::whatCell(double const*, AMod::MolTopo::Cell&) const
+ [153] global constructors keyed to LCBOPII::Energy::fSVlr(AMod::Bond const&) [45] AMod::MolTopo::MolTopo() [63] AMod::BondRange::max(int, int) const
+ [154] global constructors keyed to LCBOPII::Energy::fSVmr(AMod::Arrow const&, AMod::MolTopo const&) [125] AMod::MolTopo::~MolTopo() [68] AMod::BondRange::min(int, int) const
+ [155] global constructors keyed to LCBOPII::Energy::fSVsr(AMod::Bond const&) [49] AMod::Molecule::reset() [21] std::vector<LCBOPII::Energy::FDatum, std::allocator<LCBOPII::Energy::FDatum> >::_M_insert_aux(__gnu_cxx::__normal_iterator<LCBOPII::Energy::FDatum*, std::vector<LCBOPII::Energy::FDatum, std::allocator<LCBOPII::Energy::FDatum> > >, LCBOPII::Energy::FDatum const&)
+ [156] global constructors keyed to LCBOPII::Energy::Energy() [169] AMod::Molecule::attach() [65] std::vector<LCBOPII::Energy::FDatum, std::allocator<LCBOPII::Energy::FDatum> >::_M_fill_insert(__gnu_cxx::__normal_iterator<LCBOPII::Energy::FDatum*, std::vector<LCBOPII::Energy::FDatum, std::allocator<LCBOPII::Energy::FDatum> > >, unsigned int, LCBOPII::Energy::FDatum const&)
+ [157] global constructors keyed to tbtools::Qi(double) [51] AMod::Molecule::Molecule() [135] std::vector<AMod::Atom::Data*, std::allocator<AMod::Atom::Data*> >::_M_fill_insert(__gnu_cxx::__normal_iterator<AMod::Atom::Data**, std::vector<AMod::Atom::Data*, std::allocator<AMod::Atom::Data*> > >, unsigned int, AMod::Atom::Data* const&)
+ [158] global constructors keyed to tbtools::cross(double const*, double const*, double*) [105] AMod::BondRange::reset() [123] void std::vector<AMod::Atom::Data*, std::allocator<AMod::Atom::Data*> >::_M_range_insert<__gnu_cxx::__normal_iterator<AMod::Atom::Data**, std::vector<AMod::Atom::Data*, std::allocator<AMod::Atom::Data*> > > >(__gnu_cxx::__normal_iterator<AMod::Atom::Data**, std::vector<AMod::Atom::Data*, std::allocator<AMod::Atom::Data*> > >, __gnu_cxx::__normal_iterator<AMod::Atom::Data**, std::vector<AMod::Atom::Data*, std::allocator<AMod::Atom::Data*> > >, __gnu_cxx::__normal_iterator<AMod::Atom::Data**, std::vector<AMod::Atom::Data*, std::allocator<AMod::Atom::Data*> > >, std::forward_iterator_tag)
+ [159] global constructors keyed to tbtools::XDBGen(int, int, int) [97] AMod::BondRange::insert(int, int, double, double) [124] std::vector<AMod::Atom::Data*, std::allocator<AMod::Atom::Data*> >::erase(__gnu_cxx::__normal_iterator<AMod::Atom::Data**, std::vector<AMod::Atom::Data*, std::allocator<AMod::Atom::Data*> > >, __gnu_cxx::__normal_iterator<AMod::Atom::Data**, std::vector<AMod::Atom::Data*, std::allocator<AMod::Atom::Data*> > >)
+ [160] global constructors keyed to tbtools::init_in2() [112] AMod::BondRange::BondRange() [129] std::vector<AMod::Atom*, std::allocator<AMod::Atom*> >::_M_fill_insert(__gnu_cxx::__normal_iterator<AMod::Atom**, std::vector<AMod::Atom*, std::allocator<AMod::Atom*> > >, unsigned int, AMod::Atom* const&)
+ [161] global constructors keyed to tbtools::init_in3() [113] AMod::BondRange::~BondRange() [111] void std::vector<AMod::Atom*, std::allocator<AMod::Atom*> >::_M_range_insert<__gnu_cxx::__normal_iterator<AMod::Atom**, std::vector<AMod::Atom*, std::allocator<AMod::Atom*> > > >(__gnu_cxx::__normal_iterator<AMod::Atom**, std::vector<AMod::Atom*, std::allocator<AMod::Atom*> > >, __gnu_cxx::__normal_iterator<AMod::Atom**, std::vector<AMod::Atom*, std::allocator<AMod::Atom*> > >, __gnu_cxx::__normal_iterator<AMod::Atom**, std::vector<AMod::Atom*, std::allocator<AMod::Atom*> > >, std::forward_iterator_tag)
+ [162] global constructors keyed to main [122] AMod::BondRange::operator=(AMod::BondRange const&) [108] std::vector<AMod::Atom*, std::allocator<AMod::Atom*> >::erase(__gnu_cxx::__normal_iterator<AMod::Atom**, std::vector<AMod::Atom*, std::allocator<AMod::Atom*> > >, __gnu_cxx::__normal_iterator<AMod::Atom**, std::vector<AMod::Atom*, std::allocator<AMod::Atom*> > >)
+  [22] readxyz(std::istream&, AMod::Molecule&) [114] void Util::build_axes<Util::Array2D<double, 3, 3> >(int, Util::Array2D<double, 3, 3>&) [95] std::vector<AMod::Bond*, std::allocator<AMod::Bond*> >::_M_insert_aux(__gnu_cxx::__normal_iterator<AMod::Bond**, std::vector<AMod::Bond*, std::allocator<AMod::Bond*> > >, AMod::Bond* const&)
+ [103] NR::Matrix<double>::~Matrix() [118] void Util::purge<std::vector<AMod::Atom*, std::allocator<AMod::Atom*> > >(std::vector<AMod::Atom*, std::allocator<AMod::Atom*> >&) [107] void std::vector<AMod::Bond*, std::allocator<AMod::Bond*> >::_M_range_insert<__gnu_cxx::__normal_iterator<AMod::Bond**, std::vector<AMod::Bond*, std::allocator<AMod::Bond*> > > >(__gnu_cxx::__normal_iterator<AMod::Bond**, std::vector<AMod::Bond*, std::allocator<AMod::Bond*> > >, __gnu_cxx::__normal_iterator<AMod::Bond**, std::vector<AMod::Bond*, std::allocator<AMod::Bond*> > >, __gnu_cxx::__normal_iterator<AMod::Bond**, std::vector<AMod::Bond*, std::allocator<AMod::Bond*> > >, std::forward_iterator_tag)
+  [98] NR::Vector<double>::~Vector() [119] void Util::purge<std::vector<AMod::Bond*, std::allocator<AMod::Bond*> > >(std::vector<AMod::Bond*, std::allocator<AMod::Bond*> >&) [106] std::vector<AMod::Bond*, std::allocator<AMod::Bond*> >::erase(__gnu_cxx::__normal_iterator<AMod::Bond**, std::vector<AMod::Bond*, std::allocator<AMod::Bond*> > >, __gnu_cxx::__normal_iterator<AMod::Bond**, std::vector<AMod::Bond*, std::allocator<AMod::Bond*> > >)
+ [163] AMod::MolService<AMod::Molecule>::attach(AMod::Molecule&) [120] Util::PtrCont<AMod::Atom::Data>::resize(int) [39] std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> >::_M_insert_aux(__gnu_cxx::__normal_iterator<AMod::Arrow**, std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> > >, AMod::Arrow* const&)
+   [2] AMod::ForceLCBOPIIN::computeEnergy() [131] Util::PtrCont<AMod::Atom::Data>::cleanup() [73] void std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> >::_M_range_insert<__gnu_cxx::__normal_iterator<AMod::Arrow**, std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> > > >(__gnu_cxx::__normal_iterator<AMod::Arrow**, std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> > >, __gnu_cxx::__normal_iterator<AMod::Arrow**, std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> > >, __gnu_cxx::__normal_iterator<AMod::Arrow**, std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> > >, std::forward_iterator_tag)
+  [15] AMod::ForceLCBOPIIN::init() [33] Util::PtrCont<AMod::Atom>::resize(int) [72] std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> >::erase(__gnu_cxx::__normal_iterator<AMod::Arrow**, std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> > >, __gnu_cxx::__normal_iterator<AMod::Arrow**, std::vector<AMod::Arrow*, std::allocator<AMod::Arrow*> > >)
+  [41] AMod::ForceLCBOPIIN::reset() [126] Util::PtrCont<AMod::Atom>::cleanup() [115] std::vector<AMod::MolTopo::A2CLink*, std::allocator<AMod::MolTopo::A2CLink*> >::_M_fill_insert(__gnu_cxx::__normal_iterator<AMod::MolTopo::A2CLink**, std::vector<AMod::MolTopo::A2CLink*, std::allocator<AMod::MolTopo::A2CLink*> > >, unsigned int, AMod::MolTopo::A2CLink* const&)
+  [18] AMod::ForceLCBOPIIN::update() [47] Util::PtrCont<AMod::Bond>::resize(int) [101] void std::vector<AMod::MolTopo::A2CLink*, std::allocator<AMod::MolTopo::A2CLink*> >::_M_range_insert<__gnu_cxx::__normal_iterator<AMod::MolTopo::A2CLink**, std::vector<AMod::MolTopo::A2CLink*, std::allocator<AMod::MolTopo::A2CLink*> > > >(__gnu_cxx::__normal_iterator<AMod::MolTopo::A2CLink**, std::vector<AMod::MolTopo::A2CLink*, std::allocator<AMod::MolTopo::A2CLink*> > >, __gnu_cxx::__normal_iterator<AMod::MolTopo::A2CLink**, std::vector<AMod::MolTopo::A2CLink*, std::allocator<AMod::MolTopo::A2CLink*> > >, __gnu_cxx::__normal_iterator<AMod::MolTopo::A2CLink**, std::vector<AMod::MolTopo::A2CLink*, std::allocator<AMod::MolTopo::A2CLink*> > >, std::forward_iterator_tag)
+  [42] AMod::ForceLCBOPIIN::ForceLCBOPIIN(AMod::Molecule&) [127] Util::PtrCont<AMod::Bond>::cleanup() [100] std::vector<AMod::MolTopo::A2CLink*, std::allocator<AMod::MolTopo::A2CLink*> >::erase(__gnu_cxx::__normal_iterator<AMod::MolTopo::A2CLink**, std::vector<AMod::MolTopo::A2CLink*, std::allocator<AMod::MolTopo::A2CLink*> > >, __gnu_cxx::__normal_iterator<AMod::MolTopo::A2CLink**, std::vector<AMod::MolTopo::A2CLink*, std::allocator<AMod::MolTopo::A2CLink*> > >)
+ [164] AMod::ForceLCBOPIIN::~ForceLCBOPIIN() [46] Util::PtrCont<AMod::Bond>::push_back() [179] std::vector<LCBOPII::AtomDatumMR*, std::allocator<LCBOPII::AtomDatumMR*> >::_M_fill_insert(__gnu_cxx::__normal_iterator<LCBOPII::AtomDatumMR**, std::vector<LCBOPII::AtomDatumMR*, std::allocator<LCBOPII::AtomDatumMR*> > >, unsigned int, LCBOPII::AtomDatumMR* const&)
+  [43] AMod::KernelLCBOPIIN::init() [32] Util::PtrCont<AMod::Arrow>::resize(int) [90] void std::vector<LCBOPII::AtomDatumMR*, std::allocator<LCBOPII::AtomDatumMR*> >::_M_range_insert<__gnu_cxx::__normal_iterator<LCBOPII::AtomDatumMR**, std::vector<LCBOPII::AtomDatumMR*, std::allocator<LCBOPII::AtomDatumMR*> > > >(__gnu_cxx::__normal_iterator<LCBOPII::AtomDatumMR**, std::vector<LCBOPII::AtomDatumMR*, std::allocator<LCBOPII::AtomDatumMR*> > >, __gnu_cxx::__normal_iterator<LCBOPII::AtomDatumMR**, std::vector<LCBOPII::AtomDatumMR*, std::allocator<LCBOPII::AtomDatumMR*> > >, __gnu_cxx::__normal_iterator<LCBOPII::AtomDatumMR**, std::vector<LCBOPII::AtomDatumMR*, std::allocator<LCBOPII::AtomDatumMR*> > >, std::forward_iterator_tag)
+  [50] AMod::KernelLCBOPIIN::final() [76] Util::PtrCont<AMod::Arrow>::cleanup() [87] std::vector<LCBOPII::AtomDatumMR*, std::allocator<LCBOPII::AtomDatumMR*> >::erase(__gnu_cxx::__normal_iterator<LCBOPII::AtomDatumMR**, std::vector<LCBOPII::AtomDatumMR*, std::allocator<LCBOPII::AtomDatumMR*> > >, __gnu_cxx::__normal_iterator<LCBOPII::AtomDatumMR**, std::vector<LCBOPII::AtomDatumMR*, std::allocator<LCBOPII::AtomDatumMR*> > >)
+   [4] AMod::KernelLCBOPIIN::energy() [29] Util::PtrCont<AMod::Arrow>::push_back() [180] std::vector<LCBOPII::BondDatumLR*, std::allocator<LCBOPII::BondDatumLR*> >::_M_fill_insert(__gnu_cxx::__normal_iterator<LCBOPII::BondDatumLR**, std::vector<LCBOPII::BondDatumLR*, std::allocator<LCBOPII::BondDatumLR*> > >, unsigned int, LCBOPII::BondDatumLR* const&)
+ [165] AMod::KernelLCBOPIIN::KernelLCBOPIIN(AMod::Molecule&) [99] Util::PtrCont<AMod::MolTopo::A2CLink>::resize(int) [91] void std::vector<LCBOPII::BondDatumLR*, std::allocator<LCBOPII::BondDatumLR*> >::_M_range_insert<__gnu_cxx::__normal_iterator<LCBOPII::BondDatumLR**, std::vector<LCBOPII::BondDatumLR*, std::allocator<LCBOPII::BondDatumLR*> > > >(__gnu_cxx::__normal_iterator<LCBOPII::BondDatumLR**, std::vector<LCBOPII::BondDatumLR*, std::allocator<LCBOPII::BondDatumLR*> > >, __gnu_cxx::__normal_iterator<LCBOPII::BondDatumLR**, std::vector<LCBOPII::BondDatumLR*, std::allocator<LCBOPII::BondDatumLR*> > >, __gnu_cxx::__normal_iterator<LCBOPII::BondDatumLR**, std::vector<LCBOPII::BondDatumLR*, std::allocator<LCBOPII::BondDatumLR*> > >, std::forward_iterator_tag)
+ [166] AMod::KernelLCBOPIIN::~KernelLCBOPIIN() [128] Util::PtrCont<AMod::MolTopo::A2CLink>::cleanup() [88] std::vector<LCBOPII::BondDatumLR*, std::allocator<LCBOPII::BondDatumLR*> >::erase(__gnu_cxx::__normal_iterator<LCBOPII::BondDatumLR**, std::vector<LCBOPII::BondDatumLR*, std::allocator<LCBOPII::BondDatumLR*> > >, __gnu_cxx::__normal_iterator<LCBOPII::BondDatumLR**, std::vector<LCBOPII::BondDatumLR*, std::allocator<LCBOPII::BondDatumLR*> > >)
+  [81] AMod::Atom::Data::Data(int, double, double, double) [84] Util::PtrCont<LCBOPII::AtomDatumMR>::resize(int) [181] std::vector<LCBOPII::BondDatumSR*, std::allocator<LCBOPII::BondDatumSR*> >::_M_fill_insert(__gnu_cxx::__normal_iterator<LCBOPII::BondDatumSR**, std::vector<LCBOPII::BondDatumSR*, std::allocator<LCBOPII::BondDatumSR*> > >, unsigned int, LCBOPII::BondDatumSR* const&)
+  [82] AMod::Atom::Data::Data() [170] Util::PtrCont<LCBOPII::AtomDatumMR>::cleanup() [92] void std::vector<LCBOPII::BondDatumSR*, std::allocator<LCBOPII::BondDatumSR*> >::_M_range_insert<__gnu_cxx::__normal_iterator<LCBOPII::BondDatumSR**, std::vector<LCBOPII::BondDatumSR*, std::allocator<LCBOPII::BondDatumSR*> > > >(__gnu_cxx::__normal_iterator<LCBOPII::BondDatumSR**, std::vector<LCBOPII::BondDatumSR*, std::allocator<LCBOPII::BondDatumSR*> > >, __gnu_cxx::__normal_iterator<LCBOPII::BondDatumSR**, std::vector<LCBOPII::BondDatumSR*, std::allocator<LCBOPII::BondDatumSR*> > >, __gnu_cxx::__normal_iterator<LCBOPII::BondDatumSR**, std::vector<LCBOPII::BondDatumSR*, std::allocator<LCBOPII::BondDatumSR*> > >, std::forward_iterator_tag)
+  [83] AMod::Atom::Data::operator=(AMod::Atom::Data const&) [85] Util::PtrCont<LCBOPII::BondDatumLR>::resize(int) [89] std::vector<LCBOPII::BondDatumSR*, std::allocator<LCBOPII::BondDatumSR*> >::erase(__gnu_cxx::__normal_iterator<LCBOPII::BondDatumSR**, std::vector<LCBOPII::BondDatumSR*, std::allocator<LCBOPII::BondDatumSR*> > >, __gnu_cxx::__normal_iterator<LCBOPII::BondDatumSR**, std::vector<LCBOPII::BondDatumSR*, std::allocator<LCBOPII::BondDatumSR*> > >)
+  [35] AMod::Atom::reset()   [171] Util::PtrCont<LCBOPII::BondDatumLR>::cleanup() [31] std::vector<int, std::allocator<int> >::_M_insert_aux(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&)
+  [36] AMod::Atom::Atom()     [86] Util::PtrCont<LCBOPII::BondDatumSR>::resize(int) [24] std::vector<int, std::allocator<int> >::reserve(unsigned int)
+  [75] AMod::Atom::~Atom()   [172] Util::PtrCont<LCBOPII::BondDatumSR>::cleanup() [64] std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&)
+  [44] AMod::Atom::operator=(AMod::Atom const&) [23] LCBOPII::(anonymous namespace)::fG1(double) [67] std::_Rb_tree<AMod::MolTopo::Cell, AMod::MolTopo::Cell, std::_Identity<AMod::MolTopo::Cell>, std::less<AMod::MolTopo::Cell>, std::allocator<AMod::MolTopo::Cell> >::_M_insert_(std::_Rb_tree_node_base const*, std::_Rb_tree_node_base const*, AMod::MolTopo::Cell const&)
+  [69] AMod::Bond::setup(double const&, double const*, int const*) [19] LCBOPII::(anonymous namespace)::ftvec(double const*, double const*, double const*, double*) [40] std::_Rb_tree<AMod::MolTopo::Cell, AMod::MolTopo::Cell, std::_Identity<AMod::MolTopo::Cell>, std::less<AMod::MolTopo::Cell>, std::allocator<AMod::MolTopo::Cell> >::_M_erase(std::_Rb_tree_node<AMod::MolTopo::Cell>*)
+  [30] AMod::Bond::connect(AMod::Atom&, AMod::Atom&) [28] LCBOPII::Energy::compute_r0(AMod::Bond const&) [79] std::_Rb_tree<AMod::MolTopo::Cell, std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > >, std::_Select1st<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > >, std::less<AMod::MolTopo::Cell>, std::allocator<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > > >::_M_insert_(std::_Rb_tree_node_base const*, std::_Rb_tree_node_base const*, std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > const&)
+  [38] AMod::Bond::Bond()     [26] LCBOPII::Energy::compute_r1(AMod::Atom const&) [116] std::_Rb_tree<AMod::MolTopo::Cell, std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > >, std::_Select1st<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > >, std::less<AMod::MolTopo::Cell>, std::allocator<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > > >::_M_insert_unique(std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > const&)
+  [66] AMod::Bond::~Bond()     [7] LCBOPII::Energy::compute_r2(AMod::Bond const&) [80] std::_Rb_tree<AMod::MolTopo::Cell, std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > >, std::_Select1st<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > >, std::less<AMod::MolTopo::Cell>, std::allocator<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > > >::_M_insert_unique_(std::_Rb_tree_const_iterator<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > >, std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > const&)
+  [70] AMod::Bond::operator=(AMod::Bond const&) [9] LCBOPII::Energy::compute_r3(AMod::Bond const&) [102] std::_Rb_tree<AMod::MolTopo::Cell, std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > >, std::_Select1st<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > >, std::less<AMod::MolTopo::Cell>, std::allocator<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > > >::_M_erase(std::_Rb_tree_node<std::pair<AMod::MolTopo::Cell const, std::list<AMod::Atom*, std::allocator<AMod::Atom*> > > >*)
+  [77] AMod::Arrow::Arrow()    [5] LCBOPII::Energy::compute_r4(AMod::Atom const&, AMod::MolTopo const&) [93] AMod::Bond** std::__copy_move_a<false, AMod::Bond**, AMod::Bond**>(AMod::Bond**, AMod::Bond**, AMod::Bond**)
+  [74] AMod::Arrow::~Arrow() [173] LCBOPII::Energy::bondRangeLR() [71] AMod::Arrow** std::__copy_move_a<false, AMod::Arrow**, AMod::Arrow**>(AMod::Arrow**, AMod::Arrow**, AMod::Arrow**)
+  [78] AMod::Arrow::operator=(AMod::Arrow const&) [174] LCBOPII::Energy::bondRangeMR() [37] LCBOPII::Energy::FDatum* std::__uninitialized_move_a<LCBOPII::Energy::FDatum*, LCBOPII::Energy::FDatum*, std::allocator<LCBOPII::Energy::FDatum> >(LCBOPII::Energy::FDatum*, LCBOPII::Energy::FDatum*, LCBOPII::Energy::FDatum*, std::allocator<LCBOPII::Energy::FDatum>&)
+ [130] AMod::MolIO::reset()  [132] LCBOPII::Energy::bondRangeSR()
+ [167] AMod::MolIO::attach(AMod::Molecule&) [175] LCBOPII::Energy::cellLengthLR()

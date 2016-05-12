@@ -1,0 +1,12 @@
+SHELL             = /bin/sh
+CURRENTDIR        = ./
+REMOVE            = rm
+CCOMPILER         = cc
+CPPCOMPILER       = CC
+MPICOMPILER       = CC
+CCOMPILERFLAGS    = -DMPICH_IGNORE_CXX_SEEK -fastsse -Minline=levels:10
+CPPCOMPILERFLAGS  = -DMPICH_IGNORE_CXX_SEEK -fastsse -Minline=levels:10
+MPICOMPILERFLAGS  = -DMPICH_IGNORE_CXX_SEEK -fastsse -Minline=levels:10
+RNGFLAGS          = -DMEXP=216091
+BBOPFLAGS         = 
+LIBRARY           = 

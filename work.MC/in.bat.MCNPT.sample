@@ -1,0 +1,33 @@
+simTag		  MCNPT
+potential         REBO
+
+rStep             4000000
+eStep             8000000
+hStep		  1
+dAction           0
+dStateStep        80000
+dStatStep         10
+dInfoStep         1000
+
+inFile		  in.log
+actionFile        action.log
+stateFile         state.log
+statFile          stat.log
+infoFile          info.log
+junkFile          junk.log
+digits            9
+
+rootDir           ./sim.root
+simDir            exp1 exp2
+
+tableBegin: Default
+caseDir	kT	pressure
+case1	0.025	0.0	
+case2	0.085	0.0	
+case3	0.145	0.0	
+case4	0.205	0.0	
+case5	0.265	0.0	
+case6	0.325	0.0	
+case7	0.385	0.0	
+case8	0.445	0.0	
+tableEnd

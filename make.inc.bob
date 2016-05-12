@@ -1,0 +1,12 @@
+SHELL             = /bin/sh
+CURRENTDIR        = ./
+REMOVE            = rm -f
+CCOMPILER         = icc
+CPPCOMPILER       = icpc
+MPICOMPILER       = mpic++
+CCOMPILERFLAGS    = -O2
+CPPCOMPILERFLAGS  = -O2
+MPICOMPILERFLAGS  = -O2
+RNGFLAGS          = -DMEXP=216091
+BBOPFLAGS         = 
+LIBRARY           = 
